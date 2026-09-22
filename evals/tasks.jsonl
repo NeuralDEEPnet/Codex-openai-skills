@@ -1,0 +1,15 @@
+{"id":"software-01","skill":"software-design","prompt":"Design a mobile banking dashboard for older adults who check balances, pay recurring bills, and occasionally transfer money. Produce the design process, not just a final screen."}
+{"id":"software-02","skill":"software-design","prompt":"Redesign a dense B2B logistics dashboard used by expert dispatchers on 27-inch monitors. Do not simplify away information they need."}
+{"id":"software-03","skill":"software-design","prompt":"Create a premium landing page for an AI product. Avoid generic AI gradients and explain the visual DNA before implementation."}
+{"id":"image-01","skill":"image-design","prompt":"Create campaign key art for a compact electric city vehicle aimed at design-conscious urban professionals. Explore at least three composition strategies."}
+{"id":"image-02","skill":"image-design","prompt":"Develop a hero image for a robotics startup that must feel trustworthy and technically advanced without using humanoid-robot clichés."}
+{"id":"3d-01","skill":"3d-object-design","prompt":"Design a palm-sized modular desktop robot intended for FDM 3D printing. It needs expressive character without a face screen."}
+{"id":"3d-02","skill":"3d-object-design","prompt":"Develop three form architectures for a home energy-storage unit intended to live visibly in a modern interior."}
+{"id":"3d-03","skill":"3d-object-design","prompt":"Design a lightweight urban mobility helmet. Start from users, ergonomics, safety and manufacturing constraints before styling."}
+{"id":"motion-01","skill":"motion-pictures","prompt":"Design a 20-second product film introducing a new spatial-computing interface. Build the beat sheet and animatic logic before final visual treatment."}
+{"id":"motion-02","skill":"motion-pictures","prompt":"Create a motion language for a financial app. It should communicate confidence and causality without feeling slow or ornamental."}
+{"id":"world-01","skill":"virtual-worlds","prompt":"Design a social virtual showroom for concept cars. Include spatial navigation, interaction, comfort, social behavior, and performance constraints."}
+{"id":"world-02","skill":"virtual-worlds","prompt":"Design a mixed-reality learning environment for 13- to 16-year-old students studying planetary science. Separate evidence, assumptions, and design choices."}
+{"id":"director-01","skill":"design-director","prompt":"Design a launch experience for a 3D-printable robot ecosystem including the physical robot, companion web app, launch film, campaign visuals and an interactive 3D world."}
+{"id":"core-01","skill":"design-core","prompt":"A founder says: 'Make our product look futuristic and premium.' Turn this into a design process without prematurely selecting a visual style."}
+{"id":"core-02","skill":"design-core","prompt":"We have no time for user interviews. Design a new interface anyway, but clearly distinguish user hypotheses from validated research."}
