@@ -242,3 +242,9 @@ Before declaring completion, ask:
 - Did we critique an actual artifact?
 - Is the result coherent rather than merely attractive?
 - What evidence would change our mind?
+
+## Capture learning after delivery
+
+When the user requests ongoing improvement, read [learning-loop](references/learning-loop.md). Capture only reusable findings supported by an artifact or an explicit correction. Keep private project details out of public skills. Update the relevant workflow and add a regression eval before promoting a lesson.
+
+Scale the process to the request: a targeted revision can use the existing brief and DNA, then implement, inspect and hand off. Do not restart research for every small correction. Never promise continuous self-updates unless a scheduled task or repository workflow is actually configured.

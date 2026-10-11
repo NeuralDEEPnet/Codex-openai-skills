@@ -75,7 +75,7 @@ The benchmark is designed to test:
 
 ## Status
 
-**v0.1 — studio foundation**
+**v0.2 — portable design plugin**
 
 The methodology and five specialist skills are live. The next phase is expanding evals, adding worked examples, validating optional MCP integrations, and packaging the suite for wider plugin distribution.
 
@@ -86,3 +86,13 @@ Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 See [LICENSE](LICENSE).
+
+## Installable plugin
+
+Run `python scripts/build_plugin.py` to validate the source and build `dist/neuraldeep-design-studio-0.2.0.zip`. Import the package using a host that supports Agent Plugins 1.0. Repository-local Codex use continues through `.agents/skills`. The portable package contains the same seven skills under `skills/`; no paid service or MCP server is required.
+
+GitHub Actions validates and packages each push and pull request. This checks structure, not design performance. Run the behavioral prompts in `evals/tasks.jsonl` and record evidence separately.
+
+## Learning and updates
+
+Capture sanitized lessons in [docs/LEARNING-LOG.md](docs/LEARNING-LOG.md). Add regression evals, improve the relevant skill, review results, bump `plugin.json`, and rebuild. Installed plugins are versioned releases; GitHub changes do not silently update an installed release. Use Plugin Creator to update the existing plugin.
