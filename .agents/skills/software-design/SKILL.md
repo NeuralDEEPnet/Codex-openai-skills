@@ -1,124 +1,63 @@
 ---
 name: software-design
-description: Design or redesign websites, apps, interfaces, dashboards, digital products, design systems, or coded user experiences. Use when UX, UI, information architecture, responsive behavior, accessibility, interaction, or implementation quality matters. Do not use for isolated marketing imagery with no interactive product.
+description: Design or redesign websites, landing pages, apps, dashboards, admin tools, onboarding flows, design systems, and any coded user interface. Use whenever UX, UI, information architecture, responsive layout, accessibility, interaction design, or front-end implementation quality matters — including "make this page look better", "redesign our dashboard", "build a landing page", or "our app feels cluttered". Do not use for standalone marketing imagery with no interactive product (use image-design).
 ---
 
 # Software Design
 
-Apply the shared Design Core, then specialize it for interactive digital products.
+Before starting, read `../design-core/SKILL.md` (shared process, depth modes) and use `../design-core/references/templates.md`. If those files aren't available, follow: brief → users → design DNA → 3 concepts → critique → prototype → real-render review → handoff. This skill adds what is specific to interactive digital products.
 
-## Required artifacts
+## Artifacts (scale to depth)
 
-1. brief,
-2. user panel,
-3. task/journey map,
-4. competitive/reference scan,
-5. design DNA,
-6. information architecture,
-7. 3+ low-cost concept directions when appropriate,
-8. key flow/wireframe,
-9. visual system,
-10. functional prototype or implementation,
-11. real-render review,
-12. accessibility/responsive/performance checks,
-13. handoff.
+brief · user panel · task/journey map · reference scan · design DNA · information architecture · 3+ concept directions · key flow wireframe · visual system · prototype or implementation · real-render review · accessibility/responsive/performance checks · handoff.
 
-## User research emphasis
+Rapid depth: brief, DNA, IA sketch, one built flow, real-render review, handoff.
 
-For each primary user group identify:
-- top task,
-- frequency,
-- context/device,
-- expertise level,
-- information priority,
-- error cost,
-- trust requirements,
-- accessibility requirements.
+## Users
 
-Design first for behavior and comprehension.
+For each primary group capture: top task, frequency, context/device, expertise, information priority, error cost, trust requirements, accessibility needs. Design for behaviour and comprehension first — an expert dispatcher and a first-time banking user need opposite densities, and both are "good UX".
 
-## Information architecture
+## Information architecture before styling
 
-Before visual styling:
-- define objects/content,
-- group related information,
-- define navigation,
-- establish primary vs secondary actions,
-- handle empty/loading/error/success states.
+Define objects/content, grouping, navigation, primary vs secondary actions, and **every state**: empty, loading, error, partial, success, offline where relevant. Missing states are the most common reason a beautiful mock becomes a frustrating product.
 
-## Concept exploration
+## Concepts = different interaction models
 
-Explore different interaction models, not just themes.
-
-Possible dimensions:
-- progressive vs dense,
-- guided vs expert,
-- spatial vs linear,
-- conversational vs direct manipulation,
-- dashboard vs task-first,
-- content-first vs tool-first.
+Vary the model, not the theme: progressive vs dense · guided vs expert · spatial vs linear · conversational vs direct manipulation · dashboard vs task-first · content-first vs tool-first. Wireframe-level is enough to compare.
 
 ## Visual system
 
-Define:
-- spacing rhythm,
-- grid,
-- typography hierarchy,
-- color roles,
-- surface/elevation logic,
-- icon/image language,
-- controls,
-- states,
-- motion principles.
+Define spacing rhythm (e.g. 4/8-pt), grid, type scale and hierarchy, colour **roles** (not just swatches: surface, text, accent, success/warn/error, focus), elevation logic, icon and image language, controls, states, motion principles. Express them as tokens when code is involved so the system survives implementation.
 
-Use a consistent component vocabulary.
+**Avoid the generic AI look** unless the DNA asks for it: purple-blue gradients on dark, glassmorphism cards everywhere, emoji as icons, centred hero + three feature cards by default, vague "Unlock the power of…" copy. These read as unconsidered because they are the path of least resistance.
 
 ## Implementation
 
-When code is requested:
-1. inspect the existing stack before choosing dependencies,
-2. preserve project conventions unless they block the brief,
-3. implement the highest-value flow first,
-4. use semantic HTML/platform controls where possible,
-5. make responsive behavior intentional,
-6. avoid inaccessible interaction traps,
-7. avoid decorative complexity that harms performance.
+1. Inspect the existing stack and conventions before adding dependencies.
+2. Build the highest-value flow first, end to end, before secondary pages.
+3. Use semantic HTML / native platform controls — they bring keyboard, screen-reader, and form behaviour for free.
+4. Make responsive behaviour intentional (what reflows, what hides, what changes priority), not just "it shrinks".
+5. Avoid inaccessible traps: hover-only content, focus traps, click handlers on non-interactive elements, placeholder-as-label.
+6. Don't add decorative complexity that harms performance.
 
 ## Motion
 
-Use motion to explain:
-- hierarchy,
-- causality,
-- state changes,
-- spatial relationships,
-- continuity.
+Use motion to explain hierarchy, causality, state change, spatial relationships, and continuity. Typical UI durations: 100–200 ms for micro-feedback, 200–400 ms for larger transitions. Always honour `prefers-reduced-motion`. See motion-pictures for full motion languages.
 
-Do not animate merely because animation is available.
+## Real-render review
 
-## Real-output critique
+Render and look — screenshots at roughly 375, 768, and 1440 px wide, or the target device sizes. If you can't render in this environment, say so and give the user the exact checklist below.
 
-Inspect the rendered interface at multiple widths.
+Concrete checks (WCAG 2.2 AA as the floor):
+- Text contrast ≥ 4.5:1 (≥ 3:1 for large text: 24 px, or ~19 px bold); UI components and focus indicators ≥ 3:1
+- Pointer targets ≥ 24×24 CSS px minimum; aim for 44×44 on touch
+- Visible focus that isn't hidden by sticky headers; full keyboard path through the key flow
+- Reflows without horizontal scroll at 320 CSS px; usable at 200% text zoom
+- Text measure ~45–80 characters for reading copy
+- All states from IA present and designed
+- Performance targets for web: LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1
+- First-glance comprehension: in 5 seconds, can a target user say what this is and what to do?
 
-Check:
-- first-glance comprehension,
-- hierarchy,
-- spacing,
-- text measure,
-- contrast,
-- states,
-- touch targets,
-- keyboard/focus behavior where applicable,
-- reduced motion,
-- loading/performance,
-- consistency.
+## Handoff
 
-## Final deliverable
-
-Include:
-- implemented/prototyped experience,
-- design rationale,
-- component/system notes,
-- responsive behavior,
-- accessibility considerations,
-- unresolved risks,
-- recommended usability test.
+Include: the implemented/prototyped experience, rationale with traceability, component and token notes, responsive rules, accessibility notes (what was checked and how), unresolved risks, and one recommended usability test (task, participant profile, success measure).

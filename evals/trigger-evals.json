@@ -1,0 +1,16 @@
+[
+ {"query": "my cofounder thinks our onboarding flow feels clunky — can you redesign the 4 signup screens in our Next.js app and make them less cluttered?", "skill": "software-design", "should_trigger": true},
+ {"query": "need a case for a raspberry pi zero + 1.3in oled that I can print on my prusa mini, something that doesn't look like a generic box", "skill": "3d-object-design", "should_trigger": true},
+ {"query": "write midjourney prompts for 3 hero images for our olive-oil brand launch, warm mediterranean light, no clichés", "skill": "image-design", "should_trigger": true},
+ {"query": "we're launching a printable robot kit with an app, a launch film and a VR showroom — where do we even start?", "skill": "design-director", "should_trigger": true},
+ {"query": "define how our fintech app animates: page transitions, loading, success states", "skill": "motion-pictures", "should_trigger": true},
+ {"query": "plan a webxr showroom where 20 people can walk around our concept car together", "skill": "virtual-worlds", "should_trigger": true},
+ {"query": "the CEO wants our product to 'feel more premium' — what should we do first?", "skill": "design-core", "should_trigger": true},
+ {"query": "change the primary button colour in tailwind.config.js from blue-600 to emerald-600", "skill": "software-design", "should_trigger": false},
+ {"query": "convert this mp4 to a gif under 5MB", "skill": "motion-pictures", "should_trigger": false},
+ {"query": "my STL has non-manifold edges, how do I fix it in meshmixer?", "skill": "3d-object-design", "should_trigger": false},
+ {"query": "resize these 40 product photos to 1200x1200 and compress them", "skill": "image-design", "should_trigger": false},
+ {"query": "explain how three.js handles frustum culling", "skill": "virtual-worlds", "should_trigger": false},
+ {"query": "fix the TypeError in my React dashboard's useEffect", "skill": "software-design", "should_trigger": false},
+ {"query": "write a design-thinking essay for my university course on Dieter Rams", "skill": "design-core", "should_trigger": false}
+]

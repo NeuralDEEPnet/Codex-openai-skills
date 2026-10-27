@@ -61,7 +61,7 @@ See [docs/NEURALDEEP-INTEGRATIONS.md](docs/NEURALDEEP-INTEGRATIONS.md).
 
 ## Evaluation
 
-A design skill is only useful if it repeatedly improves outcomes. The `evals/` directory contains a growing benchmark suite covering software, imagery, industrial design, motion, and immersive worlds.
+A design skill is only useful if it repeatedly improves outcomes. The `evals/` directory contains a growing benchmark suite — a prompt suite, graded cases in `evals/cases/`, and trigger tests — covering software, imagery, industrial design, motion, and immersive worlds.
 
 The benchmark is designed to test:
 - brief interpretation,
@@ -73,11 +73,21 @@ The benchmark is designed to test:
 - accessibility/responsibility,
 - and whether the final artifact can be traced back to the original design intent.
 
+## Depth modes
+
+Not every request needs the full studio. Design Core picks a depth and says so:
+
+- **Rapid** — small, clear asks: short brief with assumptions, compact DNA, build, real-output check, short handoff.
+- **Standard** (default) — every stage, kept tight.
+- **Full** — new products, rebrands, multi-medium launches.
+
+Templates for every artifact live in `.agents/skills/design-core/references/templates.md`.
+
 ## Status
 
-**v0.1 — studio foundation**
+**v0.2 — operational studio** (see [CHANGELOG.md](CHANGELOG.md))
 
-The methodology and five specialist skills are live. The next phase is expanding evals, adding worked examples, validating optional MCP integrations, and packaging the suite for wider plugin distribution.
+Depth modes, templates, concrete accessibility/manufacturing/comfort checks, explicit skill chaining, and graded evals. In a Sonnet A/B run, v0.2 passed 100% of graded checks vs 70% for v0.1 — see [docs/EVAL-RESULTS.md](docs/EVAL-RESULTS.md). Next: worked examples, more graded cases, and packaging for wider plugin distribution.
 
 ## Contributing
 

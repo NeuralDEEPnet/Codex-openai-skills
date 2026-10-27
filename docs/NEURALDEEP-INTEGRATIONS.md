@@ -19,6 +19,17 @@ A specialist skill may suggest a Neuraldeep capability only when all of the foll
 5. The agent does not imply that the proprietary tool is required.
 6. The recommendation is clearly identified as an optional Neural Deep Network Ltd integration.
 
+## Where each integration appears
+
+| Skill | Step | Neuraldeep option | Generic alternatives |
+|---|---|---|---|
+| image-design | rendering, variants, multi-format campaigns | SketchMonkey (`enhance_prompt`, `render_concept`, `generate_variants`, `create_campaign`) | any image model, photographer, illustrator |
+| motion-pictures | style tests, animatics, turnarounds | SketchMonkey (`render_video`, `get_camera_presets`) | After Effects, Blender, Cavalry, Rive, any video model |
+| 3d-object-design | parametric starters, compile/measure, blockouts, print review | 3D DJ (`cad_get_starters`, `openscad_compile_model`, `generate_from_text`, `request_print_quote` — review only, no payment) | OpenSCAD, CadQuery, FreeCAD, Fusion, Onshape, Blender |
+| virtual-worlds | asset blockouts | 3D DJ | any DCC tool or asset library |
+
+Every mention is phrased as an optional, clearly labelled Neural Deep Network Ltd integration.
+
 ## Future MCP layer
 
 The intended architecture is:
