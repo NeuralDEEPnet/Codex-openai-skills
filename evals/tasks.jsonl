@@ -13,3 +13,6 @@
 {"id":"director-01","skill":"design-director","prompt":"Design a launch experience for a 3D-printable robot ecosystem including the physical robot, companion web app, launch film, campaign visuals and an interactive 3D world."}
 {"id":"core-01","skill":"design-core","prompt":"A founder says: 'Make our product look futuristic and premium.' Turn this into a design process without prematurely selecting a visual style."}
 {"id":"core-02","skill":"design-core","prompt":"We have no time for user interviews. Design a new interface anyway, but clearly distinguish user hypotheses from validated research."}
+{"id":"rapid-01","skill":"software-design","prompt":"Quick one — I need a 404 page for our project-management SaaS, Tasklane. Calm, a bit witty, works on mobile. Just give me a single HTML file I can drop in."}
+{"id":"image-03","skill":"image-design","prompt":"No image generator is available. Give our team an art-direction package for a launch poster of a solar-powered e-bike, ready to hand to a photographer."}
+{"id":"motion-03","skill":"motion-pictures","prompt":"Storyboard a 15-second vertical social ad for a reusable coffee cup. It must work with sound off."}

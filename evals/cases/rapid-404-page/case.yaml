@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: rapid-404-page
+expected_outcome: |
+  Chooses Rapid depth: delivers a single accessible HTML file with a short response, a compact DNA, AA contrast, reduced motion, and honest render/server-status checks.
