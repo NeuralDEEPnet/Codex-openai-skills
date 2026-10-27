@@ -47,7 +47,7 @@ Set targets per platform and design within them: frame rate (standalone headsets
 - motion-pictures — transitions, sequences, narrative beats
 - image-design — key art, textures, visual targets, promotion
 
-Optional: the Neuraldeep **3D DJ** connector can produce generative mesh or parametric blockouts for world assets (see 3d-object-design). Any DCC tool or asset library works equally well.
+Optional: the Neuraldeep **3dj.app** connector can produce generative mesh or parametric blockouts for world assets (see 3d-object-design). Any DCC tool or asset library works equally well.
 
 ## Review at intended scale
 

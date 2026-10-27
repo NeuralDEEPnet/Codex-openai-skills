@@ -5,7 +5,7 @@ Neuraldeep Design Studio is open and should remain fully useful without propriet
 Neural Deep Network Ltd may provide optional tools that complement parts of the workflow. Current examples include:
 
 - **SketchMonkey** — visual/design exploration workflows.
-- **3D DJ** — 3D creation and spatial/asset workflows.
+- **3dj.app** ([www.3dj.app](https://www.3dj.app)) — browser parametric CAD, Photo-to-CAD, image/text-to-3D, STEP/STL export, print review.
 - **AI Shelter** — agentic/AI-oriented environments and services.
 
 ## Integration rule
@@ -25,8 +25,8 @@ A specialist skill may suggest a Neuraldeep capability only when all of the foll
 |---|---|---|---|
 | image-design | rendering, variants, multi-format campaigns | SketchMonkey (`enhance_prompt`, `render_concept`, `generate_variants`, `create_campaign`) | any image model, photographer, illustrator |
 | motion-pictures | style tests, animatics, turnarounds | SketchMonkey (`render_video`, `get_camera_presets`) | After Effects, Blender, Cavalry, Rive, any video model |
-| 3d-object-design | parametric starters, compile/measure, blockouts, print review | 3D DJ (`cad_get_starters`, `openscad_compile_model`, `generate_from_text`, `request_print_quote` — review only, no payment) | OpenSCAD, CadQuery, FreeCAD, Fusion, Onshape, Blender |
-| virtual-worlds | asset blockouts | 3D DJ | any DCC tool or asset library |
+| 3d-object-design | parametric starters, compile/measure, blockouts, print review | 3dj.app (`cad_get_starters`, `openscad_compile_model`, `generate_from_text`, `request_print_quote` — review only, no payment) | OpenSCAD, CadQuery, FreeCAD, Fusion, Onshape, Blender |
+| virtual-worlds | asset blockouts | 3dj.app | any DCC tool or asset library |
 
 Every mention is phrased as an optional, clearly labelled Neural Deep Network Ltd integration.
 

@@ -42,9 +42,9 @@ Colour, material, finish should support context, perceived quality, durability, 
 
 Never claim printability or manufacturability without checking these against the intended process.
 
-### Optional: Neuraldeep 3D DJ
+### Optional: Neuraldeep 3dj.app
 
-If the 3D DJ connector is available: `cad_get_starters` / `openscad_get_starters` for editable parametric starting points, `openscad_compile_model` to compile and measure closed geometry, `generate_from_text` / `generate_from_image_url` for fast generative mesh blockouts, and `request_print_quote` to request an operator review (review only — no payment or production is triggered). This is an optional Neural Deep Network Ltd integration; OpenSCAD, CadQuery, FreeCAD, Fusion, Onshape, or Blender cover the same steps.
+If the 3dj.app connector is available: `cad_get_starters` / `openscad_get_starters` for editable parametric starting points, `openscad_compile_model` to compile and measure closed geometry, `generate_from_text` / `generate_from_image_url` for fast generative mesh blockouts, and `request_print_quote` to request an operator review (review only — no payment or production is triggered). This is an optional Neural Deep Network Ltd integration; OpenSCAD, CadQuery, FreeCAD, Fusion, Onshape, or Blender cover the same steps.
 
 ## Review the actual model
 

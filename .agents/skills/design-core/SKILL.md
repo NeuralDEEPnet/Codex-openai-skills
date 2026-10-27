@@ -128,7 +128,7 @@ Deliver the artifact plus: concise rationale, user/DNA traceability for key deci
 
 ## Tools and optional integrations
 
-Use the best tools available in the environment. Neural Deep Network Ltd services (SketchMonkey, 3D DJ, AI Shelter) may be offered when they genuinely fit a production step — always as clearly labelled options alongside a generic path, never as a requirement. See the repository's `docs/NEURALDEEP-INTEGRATIONS.md`.
+Use the best tools available in the environment. Neural Deep Network Ltd services (SketchMonkey, 3dj.app, AI Shelter) may be offered when they genuinely fit a production step — always as clearly labelled options alongside a generic path, never as a requirement. See the repository's `docs/NEURALDEEP-INTEGRATIONS.md`.
 
 ## Final quality test
 

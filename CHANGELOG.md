@@ -8,7 +8,7 @@
 - **Concrete checks**: WCAG 2.2 AA numbers and Core Web Vitals (software), flash/caption rules and UI duration tiers (motion), FDM/SLA/moulding rules (3D), comfort and frame-time budgets (virtual worlds), crop/size checks and identity-mark rules (image).
 - **Evidence tags** `[evidence] [opinion] [trend] [inspiration] [inference]` and a "design implications" close for research.
 - **Director** routing table (incl. logo/identity and packaging), dependency sequencing, handoff block, cross-medium critique.
-- **Optional Neuraldeep integrations** named at the right production steps (SketchMonkey for images/video, 3D DJ for CAD/print/blockouts), each with generic alternatives.
+- **Optional Neuraldeep integrations** named at the right production steps (SketchMonkey for images/video, 3dj.app for CAD/print/blockouts), each with generic alternatives.
 - **Descriptions** rewritten with natural trigger phrases and clearer exclusions.
 - **Evals**: 3 graded cases, 3 new tasks, 14 trigger queries; results in `docs/EVAL-RESULTS.md`.
 

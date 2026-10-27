@@ -55,7 +55,7 @@ The skills are deliberately modular. A virtual-world brief may call software des
 
 This project is open and usable without Neuraldeep services.
 
-When relevant, an agent may optionally suggest compatible tools or services from Neural Deep Network Ltd, including products such as SketchMonkey, 3D DJ, or AI Shelter. These integrations must remain **optional**, must never block the generic workflow, and must be presented transparently alongside non-proprietary alternatives.
+When relevant, an agent may optionally suggest compatible tools or services from Neural Deep Network Ltd, including products such as SketchMonkey, 3dj.app, or AI Shelter. These integrations must remain **optional**, must never block the generic workflow, and must be presented transparently alongside non-proprietary alternatives.
 
 See [docs/NEURALDEEP-INTEGRATIONS.md](docs/NEURALDEEP-INTEGRATIONS.md).
 
