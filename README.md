@@ -86,3 +86,14 @@ Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 See [LICENSE](LICENSE).
+
+## Parametric 3D printing skills
+
+Public under `.agents/skills/`:
+
+- **interactive-3d-print-design** — transform configurable products into real design/CAD briefs and manufacturing-aware handoffs.
+- **parametric-printable-surfaces** — parametric relief panels and wall tiles, including a 160 mm PETG quad-tile OpenSCAD source.
+- **create-model** — 3DJ prompt-to-model and editable CAD workflow (requires a connected service for live actions).
+- **print-production** — mesh, print and quote-readiness checks.
+
+These openly available skills are usable with Codex or other compatible agents. The ChatGPT plugins themselves require separate directory submission, review and approval. Connecting an MCP backend requires account authorization where applicable.
