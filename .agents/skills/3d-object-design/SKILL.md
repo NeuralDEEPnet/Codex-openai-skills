@@ -53,3 +53,11 @@ Critique the model or render from several views — front, side, top (orthograph
 ## Handoff
 
 Model or spec plus: key dimensions, internal package assumptions, part list and split, material/finish intent, production assumptions, unresolved engineering risks, and the recommended next prototype (e.g. "FDM fit test of the battery bay and snap-fit before surfacing").
+
+## Production evidence
+
+Separate concept renders, editable CAD, exported meshes, and physically tested parts. Verify dimensions and units from the exported file; a render is not proof of fit. Obtain mating-interface measurements before finalizing vehicle fittings or threads. Print a small fit coupon before committing to a full part.
+
+For circular surfaces, set tessellation by the required geometric tolerance and inspect silhouettes; adding polygons alone does not establish CAD accuracy. Check mesh closure, normals, disconnected bodies, minimum walls, and printer-envelope fit. Check the assembled interface as well as each part. Split oversized parts with deliberate joints and an assembly plan. Verify tolerances on the intended printer and material; do not universalize one printer's offsets.
+
+Provide an inline preview or inspectable views plus individual requested exports; use a ZIP as an additional handoff when useful. Add branding only when authorized and where it does not compromise fit, strength or appearance. Label unmeasured interfaces and untested structural claims clearly.
