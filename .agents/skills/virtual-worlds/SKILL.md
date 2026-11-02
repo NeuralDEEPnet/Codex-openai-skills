@@ -1,146 +1,58 @@
 ---
 name: virtual-worlds
-description: Design immersive or spatial experiences including XR, VR, AR, interactive 3D environments, virtual showrooms, social worlds, simulations, gamespaces, and persistent 3D ecosystems. Use when presence, scale, locomotion, spatial interaction, world rules, embodied UI, or environmental performance matters. Do not use for a conventional 2D app with incidental 3D decoration.
+description: Design immersive and spatial experiences — VR, AR, mixed reality, WebXR, interactive 3D environments, virtual showrooms, social worlds, simulations, game spaces, digital twins, and persistent 3D ecosystems. Use whenever presence, scale, locomotion, spatial interaction, world rules, embodied UI, comfort, or real-time 3D performance matters, including "build a VR showroom", "design a metaverse space", or "make an AR learning experience". Do not use for a conventional 2D app with incidental 3D decoration (software-design).
 ---
 
 # Virtual Worlds
 
-Design the world as a system of space, behavior, objects, interfaces, and time.
+Design the world as a system of space, behaviour, objects, interfaces, and time. Before starting, read `../design-core/SKILL.md` (shared process, depth modes) and use `../design-core/references/templates.md`. Coordinate with the other specialists (see "Cross-discipline calls"). If design-core is unavailable: brief → users → platform → DNA → world rules → journey → greybox → critique → comfort/performance review → handoff.
 
-Use design-core and coordinate with software-design, 3d-object-design, and motion-pictures when needed.
+## Process (scale to depth)
 
-## Process
+experience brief · user/context panel · device/platform constraints · world references · spatial DNA · world rules · journey and encounter map · spatial thumbnails/greyboxes · interaction prototypes · senior critique · integrated prototype · comfort/performance/accessibility review · refinement · handoff.
 
-1. experience brief,
-2. user/context panel,
-3. device/platform constraints,
-4. world references,
-5. spatial design DNA,
-6. world rules,
-7. journey and encounter map,
-8. spatial thumbnails/greyboxes,
-9. interaction prototypes,
-10. senior critique,
-11. integrated prototype,
-12. comfort/performance/accessibility review,
-13. refinement,
-14. handoff.
+## Experience model
 
-## Define the experience model
-
-Specify:
-- single-user vs social,
-- seated vs standing vs room-scale,
-- headset/controller/hand/desktop/mobile inputs,
-- persistent vs session-based world,
-- authored vs generative content,
-- realistic vs stylized scale,
-- core loop,
-- entry/exit behavior.
+Specify: single-user vs social · seated / standing / room-scale · inputs (controllers, hands, gaze, desktop, mobile touch) · persistent vs session · authored vs generative content · realistic vs stylised scale · core loop · entry and exit (including how people leave safely and fast).
 
 ## World rules
 
-Define what the user can:
-- see,
-- reach,
-- move,
-- manipulate,
-- create,
-- destroy,
-- own,
-- share,
-- remember.
-
-A virtual world becomes coherent when its rules are predictable.
+What the user can see, reach, move, manipulate, create, destroy, own, share, and remember. Coherence comes from predictable rules; write them as a short table and keep every interaction consistent with it.
 
 ## Spatial design
 
-Develop:
-- landmarks,
-- paths,
-- districts/zones,
-- thresholds,
-- vistas,
-- compression/release,
-- scale hierarchy,
-- orientation cues,
-- social distances,
-- safe/quiet areas.
-
-Avoid making navigation depend on floating menus alone.
+Landmarks, paths, districts/zones, thresholds, vistas, compression/release, scale hierarchy, orientation cues, social distances, quiet/safe areas. Navigation shouldn't depend on floating menus alone — people orient by landmarks and sightlines.
 
 ## Interaction
 
-Prefer embodied, spatially legible interactions when they improve understanding.
+Prefer embodied, spatially legible interactions when they aid understanding. For each action define trigger, affordance, feedback (visual + audio + haptic where available), state, failure/recovery, and multiplayer implications (who sees it, who can interrupt it).
 
-For each action define:
-- trigger,
-- affordance,
-- feedback,
-- state,
-- failure/recovery,
-- multiplayer implications where relevant.
+## Comfort and inclusion (starting points — verify against target platform guidelines)
 
-## Comfort and inclusion
+- Locomotion: offer teleport and snap-turn (≈ 30–45°) by default; smooth locomotion optional with comfort vignette; never move the camera without user intent
+- Seated mode and reach: keep core interactions within a comfortable arm's-length band and below shoulder height; support either hand
+- Text: large, high-contrast, placed roughly 1–3 m away, world- or body-locked rather than head-locked
+- Sensory load: avoid flicker, strobing, and sudden loud audio; give audio alternatives (captions, visual cues)
+- Social worlds: personal-space bubble, mute/block/report, safe zones; design for harassment from day one
+- Age-appropriate design and stricter defaults when users may be minors
 
-Consider:
-- locomotion comfort,
-- motion sickness risk,
-- reach ranges,
-- seated access,
-- handedness,
-- text distance/size,
-- color/contrast,
-- audio alternatives,
-- sensory load,
-- personal-space boundaries,
-- harassment/safety controls in social worlds.
+## Performance budgets
 
-## Performance
-
-Set budgets for:
-- geometry,
-- textures,
-- materials/shaders,
-- lights,
-- particles,
-- animation,
-- networked entities,
-- draw calls,
-- memory,
-- frame time.
-
-Design choices must respect the target platform.
+Set targets per platform and design within them: frame rate (standalone headsets commonly 72–90 Hz → ~11–14 ms per frame; desktop/WebXR as specified), draw calls, triangle counts, texture memory, material/shader complexity, real-time lights, particles, animated characters, and networked entities. Use LODs, baked lighting, and instancing. A world that drops frames in VR causes discomfort, so performance is a comfort issue, not just polish.
 
 ## Cross-discipline calls
 
-Use:
-- 3d-object-design for important world objects,
-- software-design for panels, menus, HUDs, and account flows,
-- motion-pictures for transitions, sequences, and narrative beats,
-- image-design for key art, textures, visual targets, and promotional imagery.
+- 3d-object-design — hero objects and products in the world
+- software-design — panels, menus, HUDs, account and settings flows
+- motion-pictures — transitions, sequences, narrative beats
+- image-design — key art, textures, visual targets, promotion
 
-## Review
+Optional: the Neuraldeep **3dj.app** connector can produce generative mesh or parametric blockouts for world assets (see 3d-object-design). Any DCC tool or asset library works equally well.
 
-Experience the world at intended scale.
+## Review at intended scale
 
-Check:
-- orientation,
-- comfort,
-- interaction discoverability,
-- spatial hierarchy,
-- performance,
-- social behavior,
-- environmental storytelling,
-- coherence with design DNA.
+Experience the world on the target device and scale where possible; otherwise review the greybox from first-person viewpoints at eye height (seated and standing). Check orientation, comfort, discoverability, spatial hierarchy, frame-time against budget, social behaviour, environmental storytelling, and DNA coherence. If you can't run it here, say so and provide the test plan.
 
 ## Handoff
 
-Deliver:
-- world map,
-- interaction model,
-- asset hierarchy,
-- performance budgets,
-- UI/spatial rules,
-- unresolved risks,
-- validation plan.
+World map, world-rules table, interaction model, asset hierarchy and budgets, UI/spatial rules, comfort settings, safety/moderation model for social spaces, unresolved risks, and validation plan (including a comfort test with first-time users).

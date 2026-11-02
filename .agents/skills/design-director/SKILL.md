@@ -1,94 +1,77 @@
 ---
 name: design-director
-description: Direct complex or ambiguous design briefs across Neuraldeep's design disciplines. Use when a project may involve software, images, 3D objects, motion pictures, virtual worlds, or several of them together. Route and sequence the work, maintain one design DNA, and coordinate handoffs. Do not use for a tiny single-medium edit when the correct specialist is already obvious.
+description: Direct complex, ambiguous, or multi-medium design briefs across Neuraldeep's disciplines — software, still images, 3D/physical objects, motion, and virtual worlds. Use when a project spans more than one medium (e.g. a product plus its app, launch film, and campaign), when it's unclear which kind of design a request needs, or for launches, brand experiences, rebrands, and product ecosystems. Routes and sequences the work, keeps one design DNA, and defines handoffs. Do not use for a small single-medium task where the right specialist is already obvious.
 ---
 
 # Design Director
 
-Operate as the creative director of a multidisciplinary studio.
+Operate as the creative director of a multidisciplinary studio. Your job is routing, sequencing, and coherence — the specialists do the craft.
 
-## First: classify the brief
+Before starting, read `../design-core/SKILL.md` for the shared process and depth modes, and use `../design-core/references/templates.md` for shared artifacts. Then read each specialist skill you route to (`../<skill-name>/SKILL.md`) before running its stage.
 
-Identify:
-- primary deliverable,
-- primary user experience,
-- physical vs digital vs spatial context,
-- static vs temporal behavior,
-- implementation constraints,
-- what must be designed together.
+## 1. Classify the brief
 
-Choose one **primary discipline**:
-- software-design,
-- image-design,
-- 3d-object-design,
-- motion-pictures,
-- virtual-worlds.
+Identify: primary deliverable, primary user experience, physical / digital / spatial context, static vs time-based, implementation constraints, and what must be designed together.
 
-Choose secondary disciplines only when they materially contribute.
+Pick a depth (Rapid / Standard / Full, see design-core). Multi-medium launches are usually Full; say so if you choose otherwise.
 
-Examples:
-- product website → software-design primary, image-design + motion-pictures secondary.
-- printable robot with companion app → 3d-object-design primary, software-design secondary.
-- immersive showroom → virtual-worlds primary, 3d-object-design + software-design + motion-pictures secondary.
+## 2. Route
 
-## Shared foundation
+Choose **one primary discipline** and only the secondary disciplines that materially contribute:
 
-Use the design-core process for:
-- brief,
-- research,
-- user panel,
-- inspiration,
-- design DNA,
-- critique,
-- validation.
+| If the brief is mainly… | Primary | Typical secondaries |
+|---|---|---|
+| website, app, dashboard, design system | software-design | image-design, motion-pictures |
+| key art, campaign, poster, product imagery | image-design | motion-pictures |
+| logo / visual identity | image-design (identity marks, usage) | software-design (digital tokens), motion-pictures (logo motion) |
+| physical product, printable object, enclosure, vehicle | 3d-object-design | image-design, software-design (companion app) |
+| packaging | 3d-object-design (structure) | image-design (graphics) |
+| product film, trailer, motion language | motion-pictures | image-design (style frames) |
+| XR/VR/AR, showroom, game space, 3D world | virtual-worlds | 3d-object-design, software-design, motion-pictures |
 
-Create **one shared design DNA** for the project unless there is a justified sub-brand or sub-experience.
+If nothing fits, use design-core directly and name the gap in the handoff.
 
-## Sequence disciplines
+## 3. One shared design DNA
 
-Do not run every discipline in parallel by default.
+Create a single project DNA before any specialist starts. Each specialist may add a **medium extension** (e.g. motion DNA, spatial DNA) but cannot contradict the shared principles or anti-principles. Sub-brands get their own DNA only with a stated reason. Cross-medium incoherence — a calm product with a frantic launch film — is the most common multi-medium failure, and one DNA is the cheapest prevention.
 
-Determine dependencies.
+## 4. Sequence by dependency
 
-Typical order:
-1. shared brief/research,
-2. system/experience architecture,
-3. concept exploration,
-4. primary medium development,
-5. supporting assets/media,
-6. integrated prototype,
-7. cross-medium critique,
-8. refinement.
+Don't run everything in parallel by default; downstream media inherit decisions from upstream ones. Typical order:
 
-## Handoffs
+1. shared brief, research, user panel, DNA
+2. system / experience architecture (what exists, how pieces connect)
+3. concept exploration in the **primary** medium
+4. primary medium development to a reviewable prototype
+5. supporting media, briefed from the primary's decisions
+6. integrated prototype (pieces seen together)
+7. cross-medium critique
+8. refinement
 
-Every handoff should include:
-- design intent,
-- user requirement,
-- design DNA,
-- fixed constraints,
-- flexible areas,
-- interface between disciplines,
-- acceptance conditions.
+Mark which steps can genuinely run in parallel (e.g. campaign key art once the product form is frozen).
 
-## Conflict resolution
+## 5. Handoffs
 
-When disciplines conflict, prioritize:
-1. safety and accessibility,
-2. core user task,
-3. system coherence,
-4. feasibility,
-5. design DNA,
-6. polish.
+Each handoff to a specialist includes:
 
-Do not let an eye-catching image, animation, or 3D asset damage usability or system coherence.
+```markdown
+**To:** <skill>   **Stage gate it must pass:** <design-core stage>
+**Design intent:**
+**User requirement it serves:**
+**Shared DNA (principles + anti-principles):**
+**Fixed:** decisions that can't change · **Flexible:** where the specialist has freedom
+**Interfaces:** what this piece receives from / gives to other pieces (assets, dimensions, tokens, timing)
+**Acceptance conditions:** observable checks
+```
+
+## 6. Conflict resolution
+
+When disciplines conflict, prioritise: (1) safety and accessibility, (2) the core user task, (3) system coherence, (4) feasibility, (5) design DNA, (6) polish. Don't let an eye-catching image, animation, or 3D asset damage usability or coherence.
+
+## 7. Cross-medium critique
+
+Put the pieces side by side and check: does each express the same DNA? Do assets actually fit their interfaces (dimensions, colour space, timing, file formats)? Would a user moving from film → site → product → world feel one brand and one promise?
 
 ## Output
 
-Produce:
-- discipline map,
-- sequence,
-- shared artifacts,
-- specialist deliverables,
-- review gates,
-- final integration plan.
+Deliver: discipline map, sequence (with parallel tracks marked), shared artifacts (brief, user panel, DNA), specialist handoffs, review gates, and the final integration plan with owners of each risk.
