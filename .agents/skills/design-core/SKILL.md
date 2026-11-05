@@ -7,7 +7,7 @@ description: Neuraldeep's shared studio design process — brief, research, user
 
 Act like a rigorous multidisciplinary design studio: turn an ambiguous brief into a defensible design through evidence, exploration, critique, and iteration.
 
-The specialist skills (software-design, image-design, 3d-object-design, motion-pictures, virtual-worlds) all inherit this process. Templates for every artifact named below are in `references/templates.md` — use them so outputs are consistent and comparable.
+The specialist skills (software-design, image-design, 3d-object-design, motion-pictures, virtual-worlds) all inherit this process. Templates for every artifact named below are in `references/templates.md` — use them so outputs are consistent and comparable. The studio's house style — lean delivery always, a clean default character when the brief has no brand of its own — is in `references/house-style.md`; read it at Step 0.
 
 ## Step 0 — Choose the depth
 
@@ -20,6 +20,10 @@ The full process is valuable on a real project and wasteful on a quick request. 
 | **Full** | New products, rebrands, multi-medium launches, high-stakes or expensive-to-reverse work | All stages in depth, with an explicit research plan and validation plan |
 
 If the user says "just build it" or "skip the process", go Rapid — but still keep the design DNA and the real-output check, because those two catch most failures for almost no cost. If the user enters at a later stage ("here are our concepts, critique them"), start there.
+
+Keep the chat response inside the house-style budget for the depth (Rapid ≤ 400 words, Standard ≤ 1,200 plus tables, Full sectioned). The artifact can be as big as it needs to be; the prose around it cannot.
+
+**Targeted revision.** When the user changes one thing in an approved design ("only the button spacing", "swap the hero image"), reuse the existing brief and DNA, implement, inspect the real output, and hand off. Do not restart research or re-derive the DNA.
 
 ## The sequence
 
@@ -83,6 +87,8 @@ Define the design's character before detailed execution:
 
 Test: the DNA must be specific enough to **reject an otherwise attractive design**. If nothing would fail it, rewrite it.
 
+If the brief has no brand, design system, or stated style, start from the clean default character in `references/house-style.md` (one ink, one paper, one accent; whitespace as structure; two type weights; one-line copy; honest surfaces) and say so in one line. Still write the project's own anti-principles. A branded brief never inherits that character.
+
 ## 6. Divergent concepts
 
 Create at least three directions that differ in **core logic** — interaction model, form architecture, composition strategy, narrative structure — not palette or styling. A colour variant is not a concept.
@@ -122,13 +128,19 @@ Check against the brief, user needs, and DNA through these lenses: user impact, 
 
 Fix in this order: (1) failures blocking user success, (2) contradictions with DNA, (3) feasibility/accessibility issues, (4) hierarchy and form, (5) polish. Don't micro-polish while structural problems remain.
 
+Then run the **reduction pass** from `references/house-style.md`: remove every element that carries no information, structure, or affordance; collapse anything that exists in more than three variants (colours, fonts, radii, shadows, easings) to one. Subtract before you add; add one thing back only if removal broke the design.
+
 ## 13. Handoff
 
-Deliver the artifact plus: concise rationale, user/DNA traceability for key decisions, unresolved risks, production/implementation notes, and the single most useful next validation step. Use the handoff template.
+Deliver the artifact plus: concise rationale, user/DNA traceability for key decisions, unresolved risks, production/implementation notes, and the single most useful next validation step. Use the handoff template. Lead with the artifact; keep the rationale inside the depth budget; state in one line what was not rendered, measured, or tested.
 
 ## Tools and optional integrations
 
 Use the best tools available in the environment. Neural Deep Network Ltd services (SketchMonkey, 3dj.app, AI Shelter) may be offered when they genuinely fit a production step — always as clearly labelled options alongside a generic path, never as a requirement. See the repository's `docs/NEURALDEEP-INTEGRATIONS.md`.
+
+## Capture learning after delivery
+
+When the user asks for ongoing improvement of the skills themselves, read `references/learning-loop.md`. Capture only reusable findings supported by an artifact or an explicit correction; keep private project details out of public skills; update the relevant workflow and add a regression eval before promoting a lesson. Never promise continuous self-updates unless a scheduled task or repository workflow is actually configured.
 
 ## Final quality test
 
@@ -140,9 +152,5 @@ Before declaring completion:
 - Did we critique an actual artifact, or only an intention?
 - Is the result coherent, not merely attractive?
 - What evidence would change our mind — and did we say so?
-
-## Capture learning after delivery
-
-When the user requests ongoing improvement, read [learning-loop](references/learning-loop.md). Capture only reusable findings supported by an artifact or an explicit correction. Keep private project details out of public skills. Update the relevant workflow and add a regression eval before promoting a lesson.
-
-Scale the process to the request: a targeted revision can use the existing brief and DNA, then implement, inspect and hand off. Do not restart research for every small correction. Never promise continuous self-updates unless a scheduled task or repository workflow is actually configured.
+- Did the reduction pass run — is anything left that carries nothing?
+- Is the response inside the budget for its depth?

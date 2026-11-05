@@ -43,3 +43,10 @@ When web access is available:
 7. Turn research into design implications.
 
 When web access is unavailable, state assumptions and create a research plan rather than fabricating findings.
+
+
+## House style evidence
+
+- **[evidence]** neuraldeep.net, observed 2026-11-05 (Wix site). Colour tokens: ink `#171A1C` (rgb 23,26,28), paper `#F4EFE6` (244,239,230), mid grey `#868581`, dark grey `#4E4F4F`, sky `#BDE9FB`, blush `#EAE0DA`, sage `#D0E0CD`. Type: Avenir LT 85 Heavy for headings (36–60 px), Helvetica Light 17 px body, line-height 1.4. Copy: "AI design agents. Ideas into reality."; one call to action per view ("Book a free call").
+- **[opinion]** Owner's description of the intended philosophy: "lean and clean, fresh".
+- **[inference]** The principles, anti-principles, starter accent (`#16607D`), status colours and dark theme in `house-style.md` are the studio's derivation from the above, checked for WCAG 2.x contrast; they are not a published brand manual.

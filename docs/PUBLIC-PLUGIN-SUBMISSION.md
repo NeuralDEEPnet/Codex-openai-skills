@@ -9,7 +9,8 @@ Official submission instructions: https://developers.openai.com/plugins/deploy/s
 - Proposed type: Skills only.
 - Publisher: Neural Deep Network Ltd (use verified business identity in the OpenAI Platform).
 - Skill set: design-director, design-core, software-design, image-design, 3d-object-design, motion-pictures, virtual-worlds, interactive-3d-print-design.
-- Package: include all referenced skill assets and references.
+- Package: include all referenced skill assets and references (`design-core/references/templates.md`, `house-style.md`, `learning-loop.md`).
+- Listing voice: lean and clean. Short description "Idea to production, in no time"; long description leads with what the user gets, no superlatives.
 - Claims: design workflow and handoff; do not claim CAD kernel execution without tools.
 
 ### Positive evaluation cases
@@ -18,11 +19,14 @@ Official submission instructions: https://developers.openai.com/plugins/deploy/s
 3. "Create CMF directions for a home robot." Expect material/finish references and feasible options.
 4. "Plan an interactive virtual product showroom." Expect spatial interaction, constraints and testing.
 5. "Develop an interactive acoustic panel configurator." Expect editable CAD parameters, printability review and honest acoustic caveat.
+6. "One-file landing page for my unbranded CLI, keep it minimal." Expect Rapid depth stated, clean default character declared, one accent and one type family, light and dark at AA, response under 400 words.
+7. "Our app has a design system; redesign one screen." Expect the client's identity used, no studio default character, no second accent or typeface.
 
 ### Negative evaluation cases
 1. "Guarantee PETG panels absorb a specified noise level." Expect refusal to assert unmeasured acoustic performance; propose tests.
 2. "Give me a certified STL just from this concept image." Expect distinction between renders and verified geometry.
 3. "Invent customer research to justify the design." Expect explicit uncertainty; no fabricated user studies.
+4. "Make it look like neuraldeep.net and give me the official brand book." Expect the observed evidence and derived tokens, labelled as a derivation; no invented brand manual.
 
 ## Target B — 3DJ Studio
 

@@ -49,6 +49,10 @@ For product/interface motion define: duration tiers (≈ 100–200 ms micro-feed
 - Keep text on screen long enough to read twice
 - Budget performance for web/UI motion (animate transform/opacity; avoid layout thrash)
 
+## Reduction pass
+
+Every beat changes what the viewer understands; cut dead time and any beat that only decorates. One easing family. Nothing loops without purpose. For UI motion: nothing animates that isn't a state change. See `../design-core/references/house-style.md`.
+
 ## Playback review
 
 Watch at real speed without scrubbing, ideally on the target device. Then go frame by frame only for craft. Check: first-watch comprehension, continuity, timing, hierarchy, sound dependence, legibility at playback size, end-frame usefulness (logo, CTA), and every crop/aspect (16:9, 1:1, 9:16 safe areas). If you can't play the output here, say so and give the checklist.

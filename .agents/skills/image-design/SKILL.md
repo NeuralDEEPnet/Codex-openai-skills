@@ -33,6 +33,10 @@ Without generation tools, deliver an executable **art-direction package** (compo
 
 If the SketchMonkey connector is available, it fits naturally here: `enhance_prompt` to enrich a brief with CMF detail, `render_concept` (with a design lens) for directions, `generate_variants` for controlled alternatives, and `create_campaign` to compile one brief into poster, square, story, and banner formats with editable text layers. This is an optional Neural Deep Network Ltd integration; any image model or a human illustrator/photographer works with the same package.
 
+## Reduction pass
+
+One subject, one message, one light. Negative space does the framing; props, overlays, lens flares and extra type that don't carry the message come out. If the brief is unbranded, the clean default character in `../design-core/references/house-style.md` applies: honest materials and real product or process over stock metaphors.
+
 ## Critique (at final usage size)
 
 View it where it will live — a thumbnail at 150 px, a billboard from across the street, a feed on a phone. Check: immediate read (≤ 1 s), focal hierarchy, silhouette, composition, lighting logic, material plausibility, emotional fit with DNA, originality, brand fit, crop resilience across every required ratio, text legibility in safe areas, and generation artefacts (hands, text, geometry, duplicated features, logos).
