@@ -16,5 +16,5 @@ Scope: all media; design-core and every specialist.
 Rule: lean delivery always (answer first, budgets per depth, reduction pass, one next step); clean default character only for unbranded briefs, never overriding a client identity.
 Affected: design-core/references/house-style.md, every SKILL.md (reduction pass), software-design (lean defaults, copy).
 Evals: lean-unbranded-landing, lean-01…04, trigger queries.
-Outcome: structural checks pass; behavioural evaluation pending.
-Status: candidate.
+Outcome: structural checks pass; graded case 8/9 with the final text vs 3–4/9 without (Claude edition run, Sonnet, directional).
+Status: tested.

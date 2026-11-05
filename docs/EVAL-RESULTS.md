@@ -1,8 +1,15 @@
 # Eval results
 
-## v0.3 — 2026-11-05
+## v0.3 — lean-unbranded-landing — 2026-11-05
 
-Not yet run against a model. `evals/cases/lean-unbranded-landing` (9 assertions) and tasks lean-01…04 were added with the house style; `scripts/build_plugin.py` structural validation passed. Run the case with and without the skill before describing the house style as behaviourally validated.
+The skill bodies are shared with the Claude edition, where the case was run with `claude plugin eval` on Claude Sonnet 5.5 (with/without ablation, 3 runs per arm, 3 judge votes per assertion). Directional only.
+
+| Arm | Run 1 | Run 2 | Run 3 | Mean |
+|---|---|---|---|---|
+| with skills | 5/9 | 4/9 | **8/9** | 0.63 |
+| without | 3/9 | 3/9 | 4/9 | 0.37 |
+
+Runs 1–2 ran before the Rapid response shape was added to the house style and dropped the depth line, the anti-principles and the contrast numbers; run 3 ran with the final text and missed only the word-count assertion (a 359-word response that two judges over-counted). The baseline never stated a depth, never listed anti-principles, and gave no contrast numbers. No Codex-native run has been made.
 
 ## v0.2 vs v0.1 — 2026-10-28
 

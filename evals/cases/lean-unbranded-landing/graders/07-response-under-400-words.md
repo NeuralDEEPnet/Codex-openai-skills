@@ -4,4 +4,4 @@ focus: trace
 weight: 1
 ---
 
-The chat response, excluding the HTML file itself, is under 400 words and leads with the deliverable rather than process narration
+The final chat message is under 400 words, not counting the contents of any file written with the Write tool, and leads with the deliverable rather than process narration
