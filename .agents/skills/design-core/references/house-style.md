@@ -37,6 +37,19 @@ Rough ceilings for the chat response that accompanies a delivered artifact. The 
 
 If the response blows the budget, that is a signal to move detail into the artifact or a reference file, not to cut the checks.
 
+### Rapid response shape
+
+Lean never drops the checks. A Rapid response, in this order, each part a few lines:
+
+1. **Depth line.** "Rapid depth." If the brief is unbranded: "starting from the studio's clean default character".
+2. **The artifact** (file path or inline), then what it contains, as bullets.
+3. **Compact DNA.** Three principles and at least two anti-principles, one line each.
+4. **Checks.** What was verified, with numbers (contrast ratios for text and primary action in each theme, widths tried), and what was *not* rendered or tested.
+5. **Assumptions to confirm.** Only the ones that would change the design.
+6. **One next step.**
+
+Standard and Full responses keep the same order with the full artifacts behind each heading.
+
 ## Clean default character (only when unbranded)
 
 ### Principles — each one can reject a design

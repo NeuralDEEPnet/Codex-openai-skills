@@ -21,7 +21,7 @@ The full process is valuable on a real project and wasteful on a quick request. 
 
 If the user says "just build it" or "skip the process", go Rapid — but still keep the design DNA and the real-output check, because those two catch most failures for almost no cost. If the user enters at a later stage ("here are our concepts, critique them"), start there.
 
-Keep the chat response inside the house-style budget for the depth (Rapid ≤ 400 words, Standard ≤ 1,200 plus tables, Full sectioned). The artifact can be as big as it needs to be; the prose around it cannot.
+Keep the chat response inside the house-style budget for the depth (Rapid ≤ 400 words, Standard ≤ 1,200 plus tables, Full sectioned) and in the house-style response shape: depth line first, then the artifact, compact DNA with anti-principles, checks with numbers, assumptions, one next step. The artifact can be as big as it needs to be; the prose around it cannot.
 
 **Targeted revision.** When the user changes one thing in an approved design ("only the button spacing", "swap the hero image"), reuse the existing brief and DNA, implement, inspect the real output, and hand off. Do not restart research or re-derive the DNA.
 
