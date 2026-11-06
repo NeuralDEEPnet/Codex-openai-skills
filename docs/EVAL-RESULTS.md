@@ -20,6 +20,15 @@ Runs 1–2 ran before the Rapid response shape was added to the house style and 
 
 **Third run** (compactness grader instead of word count, same setup): with skills 6/9, 7/9, 6/9 (0.70); without 2/9, 3/9, 2/9 (0.26); Δ +0.44. All three with-runs followed the Rapid response shape at 330–375 words with computed contrast ratios and an explicit "not rendered" line, yet judges unanimously failed the compactness assertion on each, failed "one accent" twice, and once failed the honest-render assertion against a response that said "I haven't opened it in a browser". The judges see the trace, not the written HTML, and read six short headed blocks as "multi-section"; graders 03, 07 and 08 now say what to judge from (the response's own statements when the HTML is not visible, and the response shape rather than a word count).
 
+**Final run** (evidence-aware graders, final skill text after the independent review, same setup):
+
+| Arm | Run 1 | Run 2 | Run 3 | Mean |
+|---|---|---|---|---|
+| with skills | 8/9 | **9/9** | 8/9 | 0.93 |
+| without | 3/9 | 4/9 | 3/9 | 0.37 |
+
+Δ +0.56 over 6 runs. The two misses were one split vote on "one accent, one family" and one run that did not name what it removed in the reduction pass. The baseline never stated a depth or anti-principles, never gave contrast numbers, and never said whether the page was rendered. Read with the usual caveat: several assertions grade the skill against its own rules, and Sonnet trigger variance is real; the number to watch is the gap, not the absolute.
+
 No Codex-native run has been made.
 
 ## v0.2 vs v0.1 — 2026-10-28
