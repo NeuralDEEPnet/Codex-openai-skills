@@ -5,7 +5,7 @@ description: Design or redesign websites, landing pages, apps, dashboards, admin
 
 # Software Design
 
-Before starting, read `../design-core/SKILL.md` (shared process, depth modes) and use `../design-core/references/templates.md`; `../design-core/references/house-style.md` gives the lean delivery rules and, for unbranded work, the clean default tokens. If those files aren't available, follow: brief → users → design DNA → 3 concepts → critique → prototype → reduction pass → real-render review → handoff. This skill adds what is specific to interactive digital products.
+Before starting, read `../design-core/SKILL.md` (shared process, depth modes) and use `../design-core/references/templates.md`; `../design-core/references/house-style.md` gives the lean delivery rules and, for unbranded work, the clean default tokens. If those files aren't available, follow: brief → users → design DNA → 3 concepts → critique → prototype → real-render review → reduction pass → handoff. This skill adds what is specific to interactive digital products.
 
 ## Artifacts (scale to depth)
 
@@ -35,7 +35,7 @@ Define spacing rhythm (e.g. 4/8-pt), grid, type scale and hierarchy, colour **ro
 
 ## Copy
 
-Headlines are fragments that name the thing. Buttons are verbs ("Export STL", not "Submit"). Labels name the field, not the instruction. Error messages say what happened and what to do next. Cut any sentence over ~20 words. Replace adjectives with the concrete noun, number, or material they stand for.
+Follow the client's voice where one exists; otherwise, and for any unbranded brief: headlines are fragments that name the thing, buttons are verbs ("Export STL", not "Submit"), labels name the field, not the instruction, error messages say what happened and what to do next, no sentence over ~20 words. In every case, replace adjectives with the concrete noun, number, or material they stand for, and cut filler.
 
 ## Implementation
 
@@ -52,10 +52,6 @@ Headlines are fragments that name the thing. Buttons are verbs ("Export STL", no
 
 Use motion to explain hierarchy, causality, state change, spatial relationships, and continuity. Typical UI durations: 100–200 ms for micro-feedback, 200–400 ms for larger transitions. Always honour `prefers-reduced-motion`. See motion-pictures for full motion languages.
 
-## Reduction pass (before the render review)
-
-From `house-style.md`: list every element that carries no information, structure, or affordance and remove it; collapse anything with more than three variants (colours, fonts, radii, shadows, easings) to one; check that spacing alone could replace each border and shadow; check every heading is a fragment and every button a verb. Then look again.
-
 ## Real-render review
 
 Render and look — screenshots at roughly 375, 768, and 1440 px wide, or the target device sizes. If you can't render in this environment, say so and give the user the exact checklist below.
@@ -70,6 +66,10 @@ Concrete checks (WCAG 2.2 AA as the floor):
 - Performance targets for web: LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1
 - First-glance comprehension: in 5 seconds, can a target user say what this is and what to do?
 - Dark theme rendered and checked, not just declared; `color-scheme` set so form controls follow
+
+## Reduction pass (in Refine, after the render review)
+
+From `house-style.md`, measured against the project's DNA or design system: list every element that carries no information, structure, or affordance and remove it; collapse any colour, radius, shadow, or easing the DNA does not define; check that each border and shadow does work spacing could not; check the copy for filler. If anything changed, render and look again.
 
 ## Handoff
 

@@ -128,7 +128,7 @@ Check against the brief, user needs, and DNA through these lenses: user impact, 
 
 Fix in this order: (1) failures blocking user success, (2) contradictions with DNA, (3) feasibility/accessibility issues, (4) hierarchy and form, (5) polish. Don't micro-polish while structural problems remain.
 
-Then run the **reduction pass** from `references/house-style.md`: remove every element that carries no information, structure, or affordance; collapse anything that exists in more than three variants (colours, fonts, radii, shadows, easings) to one. Subtract before you add; add one thing back only if removal broke the design.
+Then run the **reduction pass** from `references/house-style.md`, measured against the project's own DNA: remove every element that carries no information, structure, or affordance; collapse variants (colours, fonts, radii, shadows, easings) that the DNA or design system does not define. Subtract before you add; add one thing back only if removal broke the design. If the pass changed anything, look at the real output again.
 
 ## 13. Handoff
 

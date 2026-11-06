@@ -51,7 +51,7 @@ For product/interface motion define: duration tiers (≈ 100–200 ms micro-feed
 
 ## Reduction pass
 
-Every beat changes what the viewer understands; cut dead time and any beat that only decorates. One easing family. Nothing loops without purpose. For UI motion: nothing animates that isn't a state change. See `../design-core/references/house-style.md`.
+Every beat changes what the viewer understands; cut dead time and any beat that only decorates. One easing family unless the motion DNA defines more. Nothing loops without purpose. For UI motion: nothing animates that isn't a state change. See `../design-core/references/house-style.md`.
 
 ## Playback review
 

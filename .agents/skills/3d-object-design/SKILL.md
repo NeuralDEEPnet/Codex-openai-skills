@@ -48,7 +48,7 @@ If the 3dj.app connector is available: `cad_get_starters` / `openscad_get_starte
 
 ## Reduction pass
 
-Silhouette reads in pure black. Radii belong to one family. Part lines sit only where assembly, tolerance, or service needs them. Every surface feature serves grip, ventilation, assembly, wear, or legibility, or it goes. Subtract before adding; add one feature back only if removal broke function or stance. See `../design-core/references/house-style.md`.
+Silhouette reads in pure black. Radii belong to one family unless the DNA specifies otherwise. Part lines sit only where assembly, tolerance, or service needs them. Every surface feature serves grip, ventilation, assembly, wear, legibility, or a brand expression the DNA defines, or it goes. Subtract before adding; add one feature back only if removal broke function or stance. See `../design-core/references/house-style.md`.
 
 ## Production evidence
 

@@ -70,7 +70,7 @@ When disciplines conflict, prioritise: (1) safety and accessibility, (2) the cor
 
 ## 7. Cross-medium critique
 
-Put the pieces side by side and check: does each express the same DNA? Do assets actually fit their interfaces (dimensions, colour space, timing, file formats)? Would a user moving from film → site → product → world feel one brand and one promise? Run the reduction pass across the set: anything one medium added that the others don't need (a second accent, a third typeface, a looping flourish) goes.
+Put the pieces side by side and check: does each express the same DNA? Do assets actually fit their interfaces (dimensions, colour space, timing, file formats)? Would a user moving from film → site → product → world feel one brand and one promise? Run the reduction pass across the set: anything one medium added that the shared DNA does not define and the others don't need (a second accent, a third typeface, a looping flourish) goes.
 
 ## Output
 

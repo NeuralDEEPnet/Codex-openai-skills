@@ -4,4 +4,4 @@ focus: trace
 weight: 1
 ---
 
-Says whether the page was actually rendered; if not, says so and lists the concrete checks the user should run (widths, contrast, reduced motion)
+Says plainly whether the page was rendered or opened in a browser; when it was not, says so and lists concrete checks for the user (viewport widths such as 375/768/1440 px, contrast, reduced motion, or the dark theme)

@@ -4,4 +4,4 @@ focus: trace
 weight: 1
 ---
 
-The final chat message is compact: it leads with the deliverable, does not narrate research, inspiration or user-panel stages, and reads as roughly one screen of short bullets rather than a multi-section document (ignore the contents of any file written with the Write tool when judging length)
+The chat response is short (roughly 250–400 words, not counting any file written with the Write tool) and follows this order: a one-line depth statement; the artifact and what it contains; design principles with anti-principles; checks; assumptions to confirm; one next step. It does not narrate research, inspiration-panel or user-panel stages.

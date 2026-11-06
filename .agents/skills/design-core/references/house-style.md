@@ -11,7 +11,7 @@ The repository stays style-agnostic: a client brief with its own identity never 
 
 ## Where this comes from
 
-- **[evidence]** neuraldeep.net (observed 2026-11-05): near-black ink `#171A1C` on warm off-white paper `#F4EFE6`; Avenir 85 Heavy headings with Helvetica Light body; a four-word headline ("AI design agents. Ideas into reality."); one call to action per view; pale sky `#BDE9FB`, blush `#EAE0DA` and sage `#D0E0CD` as occasional surface tints.
+- **[evidence]** neuraldeep.net (observed 2026-11-05): near-black ink `#171A1C` on warm off-white paper `#F4EFE6`; Avenir 85 Heavy headings with Helvetica Light body; a two-fragment headline ("AI design agents. Ideas into reality."); one call to action per view; pale sky `#BDE9FB`, blush `#EAE0DA` and sage `#D0E0CD` as occasional surface tints.
 - **[opinion]** The owner describes the intended philosophy as "lean and clean, fresh".
 - **[inference]** Everything below that turns those observations into rules. Treat it as the studio's working interpretation, not as a published brand manual.
 
@@ -71,7 +71,7 @@ Standard and Full responses keep the same order with the full artifacts behind e
 
 ### Starter tokens
 
-Derived from the observed site colours; the accent and dark-theme values are derived, not observed. Contrast ratios computed with the WCAG 2.x formula.
+Derived from the observed site colours; the accent, rule, status and dark-theme values are derived, not observed. The site pairs Avenir Heavy with Helvetica Light; the token collapses that to one family in two weights, by principle 3. Contrast ratios computed with the WCAG 2.x formula.
 
 ```css
 :root {
@@ -81,23 +81,25 @@ Derived from the observed site colours; the accent and dark-theme values are der
   --rule:  #BDBAB4;   /* hairlines, dividers — not for text */
   --accent: #16607D;  /* links, primary action — 6.1:1 on paper; derived from the site's pale sky */
   --accent-wash: #BDE9FB; /* tinted surface only, never text */
-  --ok: #1E7A4A; --warn: #8F4E08; --error: #B42318; /* ≥ 4.6:1 on paper */
+  --ok: #1E7A4A; --warn: #8F4E08; --error: #B42318; /* 4.7 / 5.6 / 5.7:1 on paper */
   --space: 8px;       /* spacing scale: 1, 2, 3, 4, 6, 8, 12, 16 × --space */
   --radius: 4px;      /* one radius; 0 is also fine */
-  --font-display: "Avenir Next", "Avenir", "Inter", system-ui, sans-serif; /* weight 700–800 */
-  --font-text: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;  /* weight 300–400 */
+  --font: "Avenir Next", "Avenir", "Inter", system-ui, sans-serif; /* one family */
+  --weight-display: 800; --weight-text: 400; /* two weights carry the hierarchy */
   --measure: 65ch;
   --ease: cubic-bezier(.2,.7,.2,1); --dur: 180ms;
 }
 :root[data-theme="dark"] {
   --paper: #171A1C; --ink: #F4EFE6; --ink-2: #BDBAB4; /* 9.0:1 */
   --rule: #4E4F4F; --accent: #7FCBEA; /* 9.7:1 on dark paper */
+  --ok: #5FC48A; --warn: #E8A04A; --error: #F0857A; /* 8.1 / 8.0 / 6.9:1 on dark paper */
   color-scheme: dark;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --paper: #171A1C; --ink: #F4EFE6; --ink-2: #BDBAB4;
     --rule: #4E4F4F; --accent: #7FCBEA;
+    --ok: #5FC48A; --warn: #E8A04A; --error: #F0857A;
     color-scheme: dark;
   }
 }
@@ -111,18 +113,18 @@ Type scale: 14 / 16 / 20 / 28 / 40 / 56 px, line-height 1.4 for text and 1.1 for
 
 ## The reduction pass
 
-Run once before handoff in every medium, at every depth. Each line is a yes/no check; a "no" is a defect, not a style preference.
+Run once, inside Refine after the real-output review, in every medium and at every depth; if it changes anything, look at the output again. Each line is a check; what it catches is a defect, not a style preference. The pass measures against the **project's own DNA**: it removes what the DNA does not define or justify, never what a client's identity deliberately specifies.
 
 **Any medium**
 - Could a first-time viewer say what this is and what to do within 5 seconds?
 - Is there one clear focal point, and does everything else rank below it?
 - Does every element carry information, structure, or affordance? List what carries none and remove it.
-- Are there more than three of anything where one would do (colours, fonts, radii, shadow styles, icon styles, animation curves)?
+- Is every repeated property (colours, fonts, radii, shadow styles, icon styles, easings) held to what the DNA defines, and to at most three variants where it defines nothing?
 
 **Software**
-- One accent colour, one spacing scale, one radius, one elevation logic.
-- Every border or shadow: would spacing alone do the job?
-- Copy: every heading a fragment, every button a verb, no sentence over ~20 words.
+- No accent colour, spacing step, radius, or elevation level that the DNA or design system does not define (with the clean character: one of each).
+- Every border or shadow does work that spacing alone could not.
+- Copy follows the project's voice with no filler; with the clean character: every heading a fragment, every button a verb, no sentence over ~20 words.
 - States present: empty, loading, error, success. Reduced-motion honoured.
 
 **Image**
@@ -130,12 +132,12 @@ Run once before handoff in every medium, at every depth. Each line is a yes/no c
 - Crop test: does the read survive at 150 px and at 9:16?
 
 **3D object**
-- Silhouette reads in pure black. Radii belong to one family. Part lines only where assembly or tolerance needs them.
-- Surface detail that does not serve grip, ventilation, assembly, or wear is removed.
+- Silhouette reads in pure black. Radii belong to one family unless the DNA specifies otherwise. Part lines only where assembly, tolerance, or service needs them.
+- Surface detail that does not serve grip, ventilation, assembly, wear, legibility, or a brand expression the DNA defines is removed.
 
 **Motion**
 - Every beat changes what the viewer understands. Dead time cut.
-- One easing family. Nothing loops without purpose. Reads with sound off.
+- One easing family unless the motion DNA defines more. Nothing loops without purpose. Reads with sound off.
 
 **Virtual world**
 - Orientation from landmarks and light, not from floating UI.

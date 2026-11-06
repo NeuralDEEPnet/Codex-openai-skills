@@ -18,6 +18,8 @@ Runs 1–2 ran before the Rapid response shape was added to the house style and 
 
 Δ +0.37. Runs 1 and 3 followed the Rapid response shape exactly (depth line, artifact, DNA with anti-principles, contrast numbers, honest render statement) at 349 and 350 words, yet all three judges failed the "under 400 words" assertion both times; the judges cannot count reliably, so that grader is now a qualitative compactness check (`07-response-is-compact`). Run 2 did not state the depth, the DNA or the contrast numbers, which looks like the skill not being read on that run; treat 1-in-3 as the current trigger variance on Sonnet. The baseline was stable at 3/9: one file, one accent, short response, and none of the design discipline.
 
+**Third run** (compactness grader instead of word count, same setup): with skills 6/9, 7/9, 6/9 (0.70); without 2/9, 3/9, 2/9 (0.26); Δ +0.44. All three with-runs followed the Rapid response shape at 330–375 words with computed contrast ratios and an explicit "not rendered" line, yet judges unanimously failed the compactness assertion on each, failed "one accent" twice, and once failed the honest-render assertion against a response that said "I haven't opened it in a browser". The judges see the trace, not the written HTML, and read six short headed blocks as "multi-section"; graders 03, 07 and 08 now say what to judge from (the response's own statements when the HTML is not visible, and the response shape rather than a word count).
+
 No Codex-native run has been made.
 
 ## v0.2 vs v0.1 — 2026-10-28
