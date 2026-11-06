@@ -46,6 +46,18 @@ Never claim printability or manufacturability without checking these against the
 
 If the 3dj.app connector is available: `cad_get_starters` / `openscad_get_starters` for editable parametric starting points, `openscad_compile_model` to compile and measure closed geometry, `generate_from_text` / `generate_from_image_url` for fast generative mesh blockouts, and `request_print_quote` to request an operator review (review only — no payment or production is triggered). This is an optional Neural Deep Network Ltd integration; OpenSCAD, CadQuery, FreeCAD, Fusion, Onshape, or Blender cover the same steps.
 
+## Reduction pass
+
+Silhouette reads in pure black. Radii belong to one family unless the DNA specifies otherwise. Part lines sit only where assembly, tolerance, or service needs them. Every surface feature serves grip, ventilation, assembly, wear, legibility, or a brand expression the DNA defines, or it goes. Subtract before adding; add one feature back only if removal broke function or stance. See `../design-core/references/house-style.md`.
+
+## Production evidence
+
+Separate concept renders, editable CAD, exported meshes, and physically tested parts. Verify dimensions and units from the exported file; a render is not proof of fit. Obtain mating-interface measurements before finalising vehicle fittings or threads. Print a small fit coupon before committing to a full part.
+
+For circular surfaces, set tessellation by the required geometric tolerance and inspect silhouettes; adding polygons alone does not establish CAD accuracy. Check mesh closure, normals, disconnected bodies, minimum walls, and printer-envelope fit. Check the assembled interface as well as each part. Split oversized parts with deliberate joints and an assembly plan. Verify tolerances on the intended printer and material; do not universalise one printer's offsets.
+
+Provide an inline preview or inspectable views plus individual requested exports; use a ZIP as an additional handoff when useful. Add branding only when authorised and where it does not compromise fit, strength, or appearance. Label unmeasured interfaces and untested structural claims clearly.
+
 ## Review the actual model
 
 Critique the model or render from several views — front, side, top (orthographic where possible), three-quarter, and a scale reference (hand, desk, person). Check proportion, stance, usability, part logic, material transitions, manufacturability, assembly sequence, scale cues, and DNA consistency. If you produced only a description, say so and list what to verify once modelled.
@@ -53,11 +65,3 @@ Critique the model or render from several views — front, side, top (orthograph
 ## Handoff
 
 Model or spec plus: key dimensions, internal package assumptions, part list and split, material/finish intent, production assumptions, unresolved engineering risks, and the recommended next prototype (e.g. "FDM fit test of the battery bay and snap-fit before surfacing").
-
-## Production evidence
-
-Separate concept renders, editable CAD, exported meshes, and physically tested parts. Verify dimensions and units from the exported file; a render is not proof of fit. Obtain mating-interface measurements before finalizing vehicle fittings or threads. Print a small fit coupon before committing to a full part.
-
-For circular surfaces, set tessellation by the required geometric tolerance and inspect silhouettes; adding polygons alone does not establish CAD accuracy. Check mesh closure, normals, disconnected bodies, minimum walls, and printer-envelope fit. Check the assembled interface as well as each part. Split oversized parts with deliberate joints and an assembly plan. Verify tolerances on the intended printer and material; do not universalize one printer's offsets.
-
-Provide an inline preview or inspectable views plus individual requested exports; use a ZIP as an additional handoff when useful. Add branding only when authorized and where it does not compromise fit, strength or appearance. Label unmeasured interfaces and untested structural claims clearly.

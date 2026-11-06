@@ -5,7 +5,7 @@ description: Design or redesign websites, landing pages, apps, dashboards, admin
 
 # Software Design
 
-Before starting, read `../design-core/SKILL.md` (shared process, depth modes) and use `../design-core/references/templates.md`. If those files aren't available, follow: brief → users → design DNA → 3 concepts → critique → prototype → real-render review → handoff. This skill adds what is specific to interactive digital products.
+Before starting, read `../design-core/SKILL.md` (shared process, depth modes) and use `../design-core/references/templates.md`; `../design-core/references/house-style.md` gives the lean delivery rules and, for unbranded work, the clean default tokens. If those files aren't available, follow: brief → users → design DNA → 3 concepts → critique → prototype → real-render review → reduction pass → handoff. This skill adds what is specific to interactive digital products.
 
 ## Artifacts (scale to depth)
 
@@ -29,7 +29,13 @@ Vary the model, not the theme: progressive vs dense · guided vs expert · spati
 
 Define spacing rhythm (e.g. 4/8-pt), grid, type scale and hierarchy, colour **roles** (not just swatches: surface, text, accent, success/warn/error, focus), elevation logic, icon and image language, controls, states, motion principles. Express them as tokens when code is involved so the system survives implementation.
 
+**Lean system defaults** (from the house style; use them unless the project's DNA says otherwise): one accent colour; one spacing scale; one radius; one elevation logic, with spacing doing the grouping before borders or shadows; one type family in two weights; light and dark themes from the same tokens from day one; fluid layout with a readable measure. For an unbranded brief, start from the starter tokens in `house-style.md` and say so.
+
 **Avoid the generic AI look** unless the DNA asks for it: purple-blue gradients on dark, glassmorphism cards everywhere, emoji as icons, centred hero + three feature cards by default, vague "Unlock the power of…" copy. These read as unconsidered because they are the path of least resistance.
+
+## Copy
+
+Follow the client's voice where one exists; otherwise, and for any unbranded brief: headlines are fragments that name the thing, buttons are verbs ("Export STL", not "Submit"), labels name the field, not the instruction, error messages say what happened and what to do next, no sentence over ~20 words. In every case, replace adjectives with the concrete noun, number, or material they stand for, and cut filler.
 
 ## Implementation
 
@@ -39,6 +45,8 @@ Define spacing rhythm (e.g. 4/8-pt), grid, type scale and hierarchy, colour **ro
 4. Make responsive behaviour intentional (what reflows, what hides, what changes priority), not just "it shrinks".
 5. Avoid inaccessible traps: hover-only content, focus traps, click handlers on non-interactive elements, placeholder-as-label.
 6. Don't add decorative complexity that harms performance.
+7. Ship light and dark from the same tokens; set `color-scheme` and keep contrast at AA in both.
+8. Prefer no dependency over a small one, and a small one over a framework, for a single page.
 
 ## Motion
 
@@ -57,7 +65,12 @@ Concrete checks (WCAG 2.2 AA as the floor):
 - All states from IA present and designed
 - Performance targets for web: LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1
 - First-glance comprehension: in 5 seconds, can a target user say what this is and what to do?
+- Dark theme rendered and checked, not just declared; `color-scheme` set so form controls follow
+
+## Reduction pass (in Refine, after the render review)
+
+From `house-style.md`, measured against the project's DNA or design system: list every element that carries no information, structure, or affordance and remove it; collapse any colour, radius, shadow, or easing the DNA does not define; check that each border and shadow does work spacing could not; check the copy for filler. If anything changed, render and look again.
 
 ## Handoff
 
-Include: the implemented/prototyped experience, rationale with traceability, component and token notes, responsive rules, accessibility notes (what was checked and how), unresolved risks, and one recommended usability test (task, participant profile, success measure).
+Include: the implemented/prototyped experience, rationale with traceability, component and token notes, responsive rules, accessibility notes (what was checked and how, with the computed contrast ratios for text and the primary action in each theme), unresolved risks, and one recommended usability test (task, participant profile, success measure). At Rapid depth follow the response shape in `house-style.md`: depth line, artifact, compact DNA with anti-principles, checks with numbers, assumptions, one next step.

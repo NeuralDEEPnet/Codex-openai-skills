@@ -106,6 +106,13 @@ Deliver:
 - implementation/production notes,
 - and next validation step.
 
+## House style
+
+The studio has a house style with two layers (`.agents/skills/design-core/references/house-style.md`):
+
+- **Lean delivery** governs how every output is made and explained, regardless of the client's brand: answer first, artifacts not essays, budgets per depth, one next step, a reduction pass before handoff, targeted revisions that reuse the existing brief and DNA.
+- **Clean default character** is a visual baseline used only when a brief has no brand, design system, or stated style. It is derived from observed evidence on neuraldeep.net and labelled as a derivation. The project's own DNA always wins, so the methodology remains style-agnostic.
+
 ## Critique lenses
 
 The studio uses award-caliber design criteria as critique lenses, not as a fake scorecard:

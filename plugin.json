@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "neuraldeep-design-studio",
-  "version": "0.2.0",
-  "description": "Evidence-led multidisciplinary design from brief to verified output: software, images, industrial objects, motion and virtual worlds.",
+  "version": "0.3.0",
+  "description": "Evidence-led multidisciplinary design from brief to verified output, delivered lean and clean: software, images, industrial objects, motion and virtual worlds.",
   "author": {
     "name": "Neural Deep Network Ltd"
   },
@@ -11,7 +11,7 @@
       "interface": {
         "displayName": "Neuraldeep Design Studio",
         "shortDescription": "Idea to production, in no time",
-        "longDescription": "Direct a complete design workflow using seven composable skills. Explore distinct concepts, establish design DNA, inspect actual outputs and deliver production-aware handoffs. Optional services remain optional.",
+        "longDescription": "Direct a complete design workflow using composable skills. Explore distinct concepts, establish design DNA, inspect actual outputs and deliver production-aware handoffs, lean and clean: answer first, subtract before you add, one next step. Optional services remain optional.",
         "developerName": "Neural Deep Network Ltd",
         "category": "Productivity",
         "defaultPrompt": [

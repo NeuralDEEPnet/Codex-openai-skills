@@ -4,7 +4,7 @@ A public, reusable design methodology for Codex and other OpenAI skill-capable a
 
 Created and maintained by **Neural Deep Network Ltd**.
 
-The project adapts a professional industrial-design studio process to software, images, 3D objects, motion pictures, and virtual worlds. The goal is not to make agents "decorate" outputs. The goal is to make them **design deliberately**: understand the brief, research users, establish a design DNA, explore multiple directions, critique, prototype, validate, and refine.
+The project adapts a professional industrial-design studio process to software, images, 3D objects, motion pictures, and virtual worlds. The goal is not to make agents "decorate" outputs. The goal is to make them **design deliberately**: understand the brief, research users, establish a design DNA, explore multiple directions, critique, prototype, validate, and refine — and to deliver **lean and clean**: answer first, artifacts not essays, subtract before you add.
 
 ## Skills
 
@@ -37,6 +37,13 @@ Or invoke a specialist directly:
 > Use the 3d-object-design skill to develop three printable robot concepts.
 
 The skills are deliberately modular. A virtual-world brief may call software design for UI, 3D object design for assets, and motion pictures for transitions or cinematic moments.
+
+## House style — lean and clean
+
+Two layers, different scope (`.agents/skills/design-core/references/house-style.md`):
+
+- **Lean delivery**, always: the artifact leads, rationale stays inside a budget for the depth, every handoff ends with one next step, and a reduction pass removes whatever carries no information, structure, or affordance.
+- **Clean default character**, only for briefs with no brand of their own: one ink, one paper, one accent; whitespace as structure; two type weights; one-line copy; honest surfaces. Starter tokens (light and dark, AA contrast) are derived from neuraldeep.net and labelled as a derivation. A branded brief never inherits it.
 
 ## Principles
 
@@ -85,7 +92,7 @@ Templates for every artifact live in `.agents/skills/design-core/references/temp
 
 ## Status
 
-**v0.2 — operational studio and portable design plugin** (see [CHANGELOG.md](CHANGELOG.md))
+**v0.3 — lean and clean** (see [CHANGELOG.md](CHANGELOG.md))
 
 Depth modes, templates, concrete accessibility/manufacturing/comfort checks, explicit skill chaining, and graded evals. In a Sonnet A/B run, v0.2 passed 100% of graded checks vs 70% for v0.1 — see [docs/EVAL-RESULTS.md](docs/EVAL-RESULTS.md). The portable plugin includes the full canonical skill set. Next: worked examples and more graded cases.
 
@@ -99,7 +106,7 @@ See [LICENSE](LICENSE).
 
 ## Installable plugin
 
-Run `python scripts/build_plugin.py` to validate the source and build `dist/neuraldeep-design-studio-0.2.0.zip`. Import the package using a host that supports Agent Plugins 1.0. Repository-local Codex use continues through `.agents/skills`. The portable package contains all canonical skills under `skills/`; no paid service or MCP server is required.
+Run `python scripts/build_plugin.py` to validate the source and build `dist/neuraldeep-design-studio-0.3.0.zip`. Import the package using a host that supports Agent Plugins 1.0. Repository-local Codex use continues through `.agents/skills`. The portable package contains all canonical skills under `skills/`; no paid service or MCP server is required.
 
 GitHub Actions validates and packages each push and pull request. This checks structure, not design performance. Run the behavioral prompts in `evals/tasks.jsonl` and record evidence separately.
 

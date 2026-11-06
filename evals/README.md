@@ -6,7 +6,7 @@
 - `cases/<name>/` — graded cases in the `claude plugin eval` layout: `prompt.md`, `case.yaml`, and one verifiable statement per file in `graders/`. Run them by hand (with and without the skill) or with `claude plugin eval`.
 - `trigger-evals.json` — should/shouldn't-trigger queries per skill, including near-misses, for tuning `description` fields.
 
-Results from the v0.2 run are in `../docs/EVAL-RESULTS.md`.
+Results from the v0.2 run are in `../docs/EVAL-RESULTS.md`. The v0.3 case `lean-unbranded-landing` tests the house style: Rapid depth stated, clean default character adopted and declared, one accent and one type family, light and dark at AA, reduction pass named, response under 400 words, honest render statement.
 
 These evals test whether the skills produce disciplined design behavior rather than stylish prose.
 

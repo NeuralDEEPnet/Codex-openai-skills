@@ -49,6 +49,10 @@ Set targets per platform and design within them: frame rate (standalone headsets
 
 Optional: the Neuraldeep **3dj.app** connector can produce generative mesh or parametric blockouts for world assets (see 3d-object-design). Any DCC tool or asset library works equally well.
 
+## Reduction pass
+
+Orientation comes from landmarks, light, and sightlines before floating UI. Every object either affords, informs, or frames; remove the rest and spend the recovered frame time on comfort. See `../design-core/references/house-style.md`.
+
 ## Review at intended scale
 
 Experience the world on the target device and scale where possible; otherwise review the greybox from first-person viewpoints at eye height (seated and standing). Check orientation, comfort, discoverability, spatial hierarchy, frame-time against budget, social behaviour, environmental storytelling, and DNA coherence. If you can't run it here, say so and provide the test plan.

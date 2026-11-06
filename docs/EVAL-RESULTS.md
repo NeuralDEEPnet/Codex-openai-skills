@@ -1,5 +1,36 @@
 # Eval results
 
+## v0.3 — lean-unbranded-landing — 2026-11-05
+
+The skill bodies are shared with the Claude edition, where the case was run with `claude plugin eval` on Claude Sonnet 5.5 (with/without ablation, 3 runs per arm, 3 judge votes per assertion). Directional only.
+
+| Arm | Run 1 | Run 2 | Run 3 | Mean |
+|---|---|---|---|---|
+| with skills | 5/9 | 4/9 | **8/9** | 0.63 |
+| without | 3/9 | 3/9 | 4/9 | 0.37 |
+
+Runs 1–2 ran before the Rapid response shape was added to the house style and dropped the depth line, the anti-principles and the contrast numbers; run 3 ran with the final text and missed only the word-count assertion (a 359-word response that two judges over-counted). The baseline never stated a depth, never listed anti-principles, and gave no contrast numbers. **Clean rerun on the final text** (same setup, 6 runs):
+
+| Arm | Run 1 | Run 2 | Run 3 | Mean |
+|---|---|---|---|---|
+| with skills | 7/9 | 5/9 | 7/9 | 0.70 |
+| without | 3/9 | 3/9 | 3/9 | 0.33 |
+
+Δ +0.37. Runs 1 and 3 followed the Rapid response shape exactly (depth line, artifact, DNA with anti-principles, contrast numbers, honest render statement) at 349 and 350 words, yet all three judges failed the "under 400 words" assertion both times; the judges cannot count reliably, so that grader is now a qualitative compactness check (`07-response-is-compact`). Run 2 did not state the depth, the DNA or the contrast numbers, which looks like the skill not being read on that run; treat 1-in-3 as the current trigger variance on Sonnet. The baseline was stable at 3/9: one file, one accent, short response, and none of the design discipline.
+
+**Third run** (compactness grader instead of word count, same setup): with skills 6/9, 7/9, 6/9 (0.70); without 2/9, 3/9, 2/9 (0.26); Δ +0.44. All three with-runs followed the Rapid response shape at 330–375 words with computed contrast ratios and an explicit "not rendered" line, yet judges unanimously failed the compactness assertion on each, failed "one accent" twice, and once failed the honest-render assertion against a response that said "I haven't opened it in a browser". The judges see the trace, not the written HTML, and read six short headed blocks as "multi-section"; graders 03, 07 and 08 now say what to judge from (the response's own statements when the HTML is not visible, and the response shape rather than a word count).
+
+**Final run** (evidence-aware graders, final skill text after the independent review, same setup):
+
+| Arm | Run 1 | Run 2 | Run 3 | Mean |
+|---|---|---|---|---|
+| with skills | 8/9 | **9/9** | 8/9 | 0.93 |
+| without | 3/9 | 4/9 | 3/9 | 0.37 |
+
+Δ +0.56 over 6 runs. The two misses were one split vote on "one accent, one family" and one run that did not name what it removed in the reduction pass. The baseline never stated a depth or anti-principles, never gave contrast numbers, and never said whether the page was rendered. Read with the usual caveat: several assertions grade the skill against its own rules, and Sonnet trigger variance is real; the number to watch is the gap, not the absolute.
+
+No Codex-native run has been made.
+
 ## v0.2 vs v0.1 — 2026-10-28
 
 Executor: Claude Sonnet subagents, one run per configuration. Grader: Claude Opus, assertions in `evals/cases/`. Directional only.

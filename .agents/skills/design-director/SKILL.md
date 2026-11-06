@@ -33,7 +33,7 @@ If nothing fits, use design-core directly and name the gap in the handoff.
 
 ## 3. One shared design DNA
 
-Create a single project DNA before any specialist starts. Each specialist may add a **medium extension** (e.g. motion DNA, spatial DNA) but cannot contradict the shared principles or anti-principles. Sub-brands get their own DNA only with a stated reason. Cross-medium incoherence — a calm product with a frantic launch film — is the most common multi-medium failure, and one DNA is the cheapest prevention.
+Create a single project DNA before any specialist starts. If the project has no brand of its own, start it from the clean default character in `../design-core/references/house-style.md` and say so; a branded project never inherits that character. Each specialist may add a **medium extension** (e.g. motion DNA, spatial DNA) but cannot contradict the shared principles or anti-principles. Sub-brands get their own DNA only with a stated reason. Cross-medium incoherence — a calm product with a frantic launch film — is the most common multi-medium failure, and one DNA is the cheapest prevention.
 
 ## 4. Sequence by dependency
 
@@ -70,8 +70,8 @@ When disciplines conflict, prioritise: (1) safety and accessibility, (2) the cor
 
 ## 7. Cross-medium critique
 
-Put the pieces side by side and check: does each express the same DNA? Do assets actually fit their interfaces (dimensions, colour space, timing, file formats)? Would a user moving from film → site → product → world feel one brand and one promise?
+Put the pieces side by side and check: does each express the same DNA? Do assets actually fit their interfaces (dimensions, colour space, timing, file formats)? Would a user moving from film → site → product → world feel one brand and one promise? Run the reduction pass across the set: anything one medium added that the shared DNA does not define and the others don't need (a second accent, a third typeface, a looping flourish) goes.
 
 ## Output
 
-Deliver: discipline map, sequence (with parallel tracks marked), shared artifacts (brief, user panel, DNA), specialist handoffs, review gates, and the final integration plan with owners of each risk.
+Deliver: discipline map, sequence (with parallel tracks marked), shared artifacts (brief, user panel, DNA), specialist handoffs, review gates, and the final integration plan with owners of each risk. Keep the director's own prose inside the depth budget; the plan is a set of tables, not a narrative.
