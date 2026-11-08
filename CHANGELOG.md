@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.3.1 — Print path inspected — 2026-11-08
+
+- **3DJ capability reference** (`create-model/references/capabilities.md`): catalogue re-observed on 2026-11-08. `cad_validate_script` now builds and measures in the isolated kernel (with an optional PNG preview); `cad_render_views`, `cad_check_assembly`, `cad_export_model` (STL/STEP/GLB/ZIP with a download URL), `cad_save_model`, `cad_import_model`, `compose_design_brief` and `openscad_compile_model` are advertised live. The 2026-10-11 baseline is kept as history. Account tools were not executed; discovery at run time still decides.
+- **create-model**: the Replicad path now runs validate → render → assembly check → export/save, with the "no file until the export URL returns" rule kept; explicit no-connector fallback.
+- **interactive-3d-print-design, parametric-printable-surfaces, print-production**: descriptions now say when to trigger and when not to; each links to the shared process (`3d-object-design` → design-core) so depth, lean delivery and the reduction pass apply; explicit relative paths replace "the companion 3DJ skill"; a parameter-map table and a handoff shape added; no-connector fallbacks stated.
+- **3d-object-design** and `docs/NEURALDEEP-INTEGRATIONS.md`: the optional 3dj.app mention names the view, assembly and export tools for the "review the actual model" step.
+- **Validator** (`scripts/build_plugin.py`): explicit checks with messages instead of bare asserts; checks description length, relative references inside skills, every eval case (case.yaml name, prompt, grader frontmatter), task and trigger-query skill names, a trigger query for every skill, and a changelog entry for the manifest version.
+- **Evals**: graded case `acoustic-tile-honesty` (6 checks), tasks print-01…04, 8 trigger queries for the four print skills. Structural checks pass; no behavioral run yet.
+- **Inspection** (no change needed): every contrast ratio claimed in `house-style.md` recomputed with the WCAG 2.x formula and found correct to one decimal; every relative reference in the skills resolves; all descriptions are under 1,024 characters.
+
 ## v0.3 — Lean and clean — 2026-11-05
 
 - **House style** (`design-core/references/house-style.md`): Neuraldeep's lean and clean philosophy in two layers. *Lean delivery* always: answer first, artifacts not essays, one next step, response budgets per depth (Rapid ≤ 400 words, Standard ≤ 1,200 plus tables), subtract before you add, targeted revisions stay targeted. *Clean default character* only when a brief has no brand of its own: one ink, one paper, one accent; whitespace as structure; two type weights; one-line copy; honest surfaces; anti-principles and starter tokens (light and dark, AA contrast computed) derived from neuraldeep.net. Evidence, owner intent and inference are tagged separately; branded work stays style-agnostic.

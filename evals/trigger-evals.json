@@ -98,5 +98,45 @@
   "query": "minify this CSS file",
   "skill": "software-design",
   "should_trigger": false
+ },
+ {
+  "query": "the 3dj connector is hooked up — build me a 40 mm cable clip for a 6 mm cable and give me the STL",
+  "skill": "create-model",
+  "should_trigger": true
+ },
+ {
+  "query": "which slicer profile should I use for PETG on a Prusa MINI?",
+  "skill": "create-model",
+  "should_trigger": false
+ },
+ {
+  "query": "we want customers to pick tile size, relief depth and contour count on our site and download a printable file",
+  "skill": "interactive-3d-print-design",
+  "should_trigger": true
+ },
+ {
+  "query": "design a one-off vase for my mum, nothing adjustable, just make it nice",
+  "skill": "interactive-3d-print-design",
+  "should_trigger": false
+ },
+ {
+  "query": "parametric openscad hex wall tile, 150 mm across, rear keyhole mounts, print on a mini",
+  "skill": "parametric-printable-surfaces",
+  "should_trigger": true
+ },
+ {
+  "query": "write a python script to batch-rename my stl files by date",
+  "skill": "parametric-printable-surfaces",
+  "should_trigger": false
+ },
+ {
+  "query": "my model's done — what do I need to get a print quote from neuraldeep and what does the quote actually cover?",
+  "skill": "print-production",
+  "should_trigger": true
+ },
+ {
+  "query": "how do I level the bed on my ender 3?",
+  "skill": "print-production",
+  "should_trigger": false
  }
 ]
