@@ -31,7 +31,7 @@ Official submission instructions: https://developers.openai.com/plugins/deploy/s
 ## Target B — 3DJ Studio
 
 - Proposed type: Skills + MCP.
-- Production MCP previously configured at `https://3dj-neuraldeepnet.on.adaptive.ai/api/mcp`. Reconfirm live service and tools before submission.
+- Production MCP previously configured at `https://3dj-neuraldeepnet.on.adaptive.ai/api/mcp`. Reconfirm live service and tools before submission; the catalogue observed on 2026-11-08 is recorded in `.agents/skills/create-model/references/capabilities.md`.
 - Skill set: create-model, print-production, parametric-printable-surfaces.
 - Account actions require each user's own credentials. Never embed a founder key or demo key in the plugin package.
 - Ensure auth, per-account isolation, tool annotations, permissions, domain verification and reviewer demo access are production-ready.

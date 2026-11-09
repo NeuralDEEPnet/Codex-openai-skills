@@ -92,7 +92,7 @@ Templates for every artifact live in `.agents/skills/design-core/references/temp
 
 ## Status
 
-**v0.3 — lean and clean** (see [CHANGELOG.md](CHANGELOG.md))
+**v0.3.1 — print path inspected** (see [CHANGELOG.md](CHANGELOG.md))
 
 Depth modes, templates, concrete accessibility/manufacturing/comfort checks, explicit skill chaining, and graded evals. In a Sonnet A/B run, v0.2 passed 100% of graded checks vs 70% for v0.1 — see [docs/EVAL-RESULTS.md](docs/EVAL-RESULTS.md). The portable plugin includes the full canonical skill set. Next: worked examples and more graded cases.
 
@@ -106,9 +106,9 @@ See [LICENSE](LICENSE).
 
 ## Installable plugin
 
-Run `python scripts/build_plugin.py` to validate the source and build `dist/neuraldeep-design-studio-0.3.0.zip`. Import the package using a host that supports Agent Plugins 1.0. Repository-local Codex use continues through `.agents/skills`. The portable package contains all canonical skills under `skills/`; no paid service or MCP server is required.
+Run `python scripts/build_plugin.py` to validate the source and build `dist/neuraldeep-design-studio-0.3.1.zip`. Import the package using a host that supports Agent Plugins 1.0. Repository-local Codex use continues through `.agents/skills`. The portable package contains all canonical skills under `skills/`; no paid service or MCP server is required.
 
-GitHub Actions validates and packages each push and pull request. This checks structure, not design performance. Run the behavioral prompts in `evals/tasks.jsonl` and record evidence separately.
+GitHub Actions validates and packages each push and pull request. The validator checks skill frontmatter and description length, every relative reference inside the skills, and the eval layout (cases, graders, tasks, and a trigger query for every skill). This checks structure, not design performance. Run the behavioral prompts in `evals/tasks.jsonl` and record evidence separately.
 
 ## Learning and updates
 
@@ -120,7 +120,7 @@ Public under `.agents/skills/`:
 
 - **interactive-3d-print-design** — transform configurable products into real design/CAD briefs and manufacturing-aware handoffs.
 - **parametric-printable-surfaces** — parametric relief panels and wall tiles, including a 160 mm PETG quad-tile OpenSCAD source.
-- **create-model** — 3DJ prompt-to-model and editable CAD workflow (requires a connected service for live actions).
+- **create-model** — 3DJ prompt-to-model, OpenSCAD compile-and-measure, and parametric CAD with views, assembly checks and STL/STEP/GLB export (live actions need the connector; without it the skill hands over portable source).
 - **print-production** — mesh, print and quote-readiness checks.
 
 These openly available skills are usable with Codex or other compatible agents. The ChatGPT plugins themselves require separate directory submission, review and approval. Connecting an MCP backend requires account authorization where applicable.

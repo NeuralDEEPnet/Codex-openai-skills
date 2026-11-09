@@ -44,7 +44,7 @@ Never claim printability or manufacturability without checking these against the
 
 ### Optional: Neuraldeep 3dj.app
 
-If the 3dj.app connector is available: `cad_get_starters` / `openscad_get_starters` for editable parametric starting points, `openscad_compile_model` to compile and measure closed geometry, `generate_from_text` / `generate_from_image_url` for fast generative mesh blockouts, and `request_print_quote` to request an operator review (review only — no payment or production is triggered). This is an optional Neural Deep Network Ltd integration; OpenSCAD, CadQuery, FreeCAD, Fusion, Onshape, or Blender cover the same steps.
+If the 3dj.app connector is available: `cad_get_starters` / `openscad_get_starters` for editable parametric starting points; `cad_validate_script` (builds and measures in the kernel, `preview: true` for a PNG) and `cad_render_views` (orthographic views, thin-wall and overhang highlights, sections) for the "review the actual model" step; `cad_check_assembly` for clearances and joint sweeps; `openscad_compile_model` to compile and measure OpenSCAD; `cad_export_model` for STL/STEP/GLB with a download URL; `generate_from_text` / `generate_from_image_url` for fast generative mesh blockouts; and `request_print_quote` to request an operator review (review only — no payment or production is triggered). Follow `../create-model/SKILL.md` for the call order and limits. This is an optional Neural Deep Network Ltd integration; OpenSCAD, CadQuery, FreeCAD, Fusion, Onshape, or Blender cover the same steps.
 
 ## Reduction pass
 

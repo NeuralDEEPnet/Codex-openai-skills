@@ -9,6 +9,15 @@ Evals: 3d-04, 3d-05, core-03, core-04.
 Outcome: structural checks pending; behavioral evaluation pending.
 Status: candidate; do not describe as physically validated.
 
+## 2026-11-08 — print path: stale tool knowledge and untriggered skills
+Source: repository inspection against the live 3DJ connector catalogue; no client artifacts.
+Observation: `capabilities.md` described `cad_validate_script` as syntax-only and the OpenSCAD tools as undeployed, while the live catalogue advertised kernel builds, renders, assembly checks and exports — so an agent following the skill would under-use real tools or misdescribe them. The four print skills had no trigger guidance, no link to the shared process, and no evals.
+Scope: create-model, print-production, parametric-printable-surfaces, interactive-3d-print-design.
+Rule: a tool reference carries the date it was observed; the skill follows the latest observation and the live description wins at run time. Every skill gets should/shouldn't trigger queries, and the validator fails when one is missing.
+Evals: acoustic-tile-honesty, print-01…04, 8 trigger queries.
+Outcome: structural checks pass; behavioral evaluation pending.
+Status: candidate.
+
 ## 2026-11-05 — house style: lean and clean
 Source: owner request to embody the neuraldeep.net lean and clean philosophy; site observed directly (colours, type, copy). No client artifacts.
 Observation: outputs drifted long (process narration around small asks) and visually generic (second accents, card borders everywhere, template hero stacks) when a brief had no brand.

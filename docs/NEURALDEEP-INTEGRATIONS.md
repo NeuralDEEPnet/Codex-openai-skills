@@ -25,7 +25,8 @@ A specialist skill may suggest a Neuraldeep capability only when all of the foll
 |---|---|---|---|
 | image-design | rendering, variants, multi-format campaigns | SketchMonkey (`enhance_prompt`, `render_concept`, `generate_variants`, `create_campaign`) | any image model, photographer, illustrator |
 | motion-pictures | style tests, animatics, turnarounds | SketchMonkey (`render_video`, `get_camera_presets`) | After Effects, Blender, Cavalry, Rive, any video model |
-| 3d-object-design | parametric starters, compile/measure, blockouts, print review | 3dj.app (`cad_get_starters`, `openscad_compile_model`, `generate_from_text`, `request_print_quote` — review only, no payment) | OpenSCAD, CadQuery, FreeCAD, Fusion, Onshape, Blender |
+| 3d-object-design | parametric starters, build/measure, views, assembly checks, export, blockouts, print review | 3dj.app (`cad_get_starters`, `cad_validate_script`, `cad_render_views`, `cad_check_assembly`, `openscad_compile_model`, `cad_export_model`, `generate_from_text`, `request_print_quote` — review only, no payment) | OpenSCAD, CadQuery, FreeCAD, Fusion, Onshape, Blender |
+| create-model, parametric-printable-surfaces, print-production | the 3DJ production path itself | 3dj.app (full catalogue in `create-model/references/capabilities.md`) | portable OpenSCAD/CAD source, local OpenSCAD, `trimesh` checks, any print bureau |
 | virtual-worlds | asset blockouts | 3dj.app | any DCC tool or asset library |
 
 Every mention is phrased as an optional, clearly labelled Neural Deep Network Ltd integration.
