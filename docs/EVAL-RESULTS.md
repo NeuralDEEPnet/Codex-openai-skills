@@ -11,6 +11,8 @@ Run in the Claude edition (shared skill bodies) on Claude Sonnet, with/without a
 
 Δ +0.37. With-runs computed the contrast failures, found hidden labels and the infinite animation, listed Not done, wrote AI use as "not stated" and disclaimed certification; all three skipped the six-lens section, which the response shape now requires. The baseline never produced a receipt and once certified compliance it had not measured. No Codex-native run has been made.
 
+**Reruns.** With the lenses required: 0.67 with vs 0.56 without (the lenses passed in two of three runs, but a method preamble pushed the verdict off the first line and the receipt came as loose bullets). With the verdict forced to the first line and the receipt layout inlined in the skill: **0.85 with (8/9, 9/9, 6/9) vs 0.48 without (4/9, 5/9, 4/9), Δ +0.37**. The remaining with-run misses are one run that compressed the lenses and the Not-done list, which is run-to-run variance on Sonnet rather than a missing instruction; the baseline never produced a receipt, never ran the lenses, and never disclaimed certification. Three runs per arm; treat the gap as the signal, not the absolute.
+
 ## v0.3 — lean-unbranded-landing — 2026-11-05
 
 The skill bodies are shared with the Claude edition, where the case was run with `claude plugin eval` on Claude Sonnet 5.5 (with/without ablation, 3 runs per arm, 3 judge votes per assertion). Directional only.
