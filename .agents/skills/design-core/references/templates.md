@@ -2,7 +2,7 @@
 
 Copy and fill these. Delete rows that genuinely don't apply rather than writing "N/A" everywhere. Keep entries short — a template is a thinking aid, not a word count target.
 
-Contents: [Brief](#brief) · [Research log](#research-log) · [Inspiration panel](#inspiration-panel) · [User panel](#user-panel) · [Design DNA](#design-dna) · [Concept card](#concept-card) · [Senior review](#senior-review) · [Synthesis](#synthesis) · [Handoff](#handoff)
+Contents: [Brief](#brief) · [Research log](#research-log) · [Inspiration panel](#inspiration-panel) · [User panel](#user-panel) · [Design DNA](#design-dna) · [Concept card](#concept-card) · [Senior review](#senior-review) · [Synthesis](#synthesis) · [Handoff](#handoff) · Design Receipt (see `design-receipt.md`)
 
 ---
 
@@ -119,4 +119,7 @@ Check across cards: if two concepts would produce the same wireframe or blockout
 **Unresolved risks:**
 **Production / implementation notes:**
 **Next validation step:** the single most useful test, with who/what/how
+**Design Receipt:** attached (layout in `design-receipt.md`) — checks with numbers, Not done, AI use
 ```
+
+The handoff is incomplete without its Design Receipt.

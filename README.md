@@ -9,7 +9,8 @@ The project adapts a professional industrial-design studio process to software, 
 ## Skills
 
 - **design-director** — routes a brief to the right discipline or combination of disciplines.
-- **design-core** — the shared studio methodology and maturity gates.
+- **design-core** — the shared studio methodology, maturity gates, house style and the Design Receipt.
+- **design-review** — review, audit or critique existing work and return a Design Receipt.
 - **software-design** — UX, UI, websites, apps, design systems, coded interfaces, and digital products.
 - **image-design** — still images, campaign visuals, key art, concept images, graphics, and visual storytelling.
 - **3d-object-design** — industrial/product design, physical objects, vehicles, printable objects, CMF, and form development.
@@ -37,6 +38,10 @@ Or invoke a specialist directly:
 > Use the 3d-object-design skill to develop three printable robot concepts.
 
 The skills are deliberately modular. A virtual-world brief may call software design for UI, 3D object design for assets, and motion pictures for transitions or cinematic moments.
+
+## Design Receipts
+
+Every deliverable ships with a **Design Receipt** (`.agents/skills/design-core/references/design-receipt.md`): measured checks with method and threshold, decisions traced with confidence labels, a mandatory list of what was not rendered, measured or tested, research with evidence tags and sources, and a plain-words AI-use disclosure. `design-review` produces one for work made elsewhere. A receipt is evidence, not a certification.
 
 ## House style — lean and clean
 
@@ -106,7 +111,7 @@ See [LICENSE](LICENSE).
 
 ## Installable plugin
 
-Run `python scripts/build_plugin.py` to validate the source and build `dist/neuraldeep-design-studio-0.3.1.zip`. Import the package using a host that supports Agent Plugins 1.0. Repository-local Codex use continues through `.agents/skills`. The portable package contains all canonical skills under `skills/`; no paid service or MCP server is required.
+Run `python scripts/build_plugin.py` to validate the source and build `dist/neuraldeep-design-studio-0.4.0.zip`. Import the package using a host that supports Agent Plugins 1.0. Repository-local Codex use continues through `.agents/skills`. The portable package contains all canonical skills under `skills/`; no paid service or MCP server is required.
 
 GitHub Actions validates and packages each push and pull request. The validator checks skill frontmatter and description length, every relative reference inside the skills, and the eval layout (cases, graders, tasks, and a trigger query for every skill). This checks structure, not design performance. Run the behavioral prompts in `evals/tasks.jsonl` and record evidence separately.
 

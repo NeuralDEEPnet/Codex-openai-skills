@@ -138,5 +138,30 @@
   "query": "how do I level the bed on my ender 3?",
   "skill": "print-production",
   "should_trigger": false
+ },
+ {
+  "query": "can you review our landing page before we ship it? here's the URL",
+  "skill": "design-review",
+  "should_trigger": true
+ },
+ {
+  "query": "client wants proof this app meets the European Accessibility Act — audit the checkout flow",
+  "skill": "design-review",
+  "should_trigger": true
+ },
+ {
+  "query": "is this bracket STL printable on my Bambu A1?",
+  "skill": "design-review",
+  "should_trigger": true
+ },
+ {
+  "query": "design a landing page for our new app",
+  "skill": "design-review",
+  "should_trigger": false
+ },
+ {
+  "query": "run axe-core on this page and paste the JSON",
+  "skill": "design-review",
+  "should_trigger": false
  }
 ]

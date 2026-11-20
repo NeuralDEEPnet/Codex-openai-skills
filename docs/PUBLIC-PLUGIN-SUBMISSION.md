@@ -8,7 +8,8 @@ Official submission instructions: https://developers.openai.com/plugins/deploy/s
 
 - Proposed type: Skills only.
 - Publisher: Neural Deep Network Ltd (use verified business identity in the OpenAI Platform).
-- Skill set: design-director, design-core, software-design, image-design, 3d-object-design, motion-pictures, virtual-worlds, interactive-3d-print-design.
+- Skill set: design-director, design-core, design-review, software-design, image-design, 3d-object-design, motion-pictures, virtual-worlds, interactive-3d-print-design.
+- Headline: Design Receipts — every deliverable ships with measured checks, traceability, a not-done list and AI-use disclosure.
 - Package: include all referenced skill assets and references (`design-core/references/templates.md`, `house-style.md`, `learning-loop.md`).
 - Listing voice: lean and clean. Short description "Idea to production, in no time"; long description leads with what the user gets, no superlatives.
 - Claims: design workflow and handoff; do not claim CAD kernel execution without tools.

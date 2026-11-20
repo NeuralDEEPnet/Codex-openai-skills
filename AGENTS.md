@@ -20,7 +20,8 @@ This repository contains public design skills for Codex.
    - and agent inference.
 10. Keep specialist skills composable. Hybrid tasks should be coordinated through `design-director`.
 11. Keep the house style (`.agents/skills/design-core/references/house-style.md`) in two layers: lean delivery always; the clean default character only for unbranded briefs. Never let it override a client's own identity.
-12. Mirror substantive skill changes to the Claude edition (`NeuralDEEPnet/claude-design-skills`, `skills/`), which shares the same skill bodies.
+12. Every handoff carries a Design Receipt (`.agents/skills/design-core/references/design-receipt.md`); never weaken the Not-done list or the AI-use disclosure, and never let a receipt read as a certification.
+13. Mirror substantive skill changes to the Claude edition (`NeuralDEEPnet/claude-design-skills`, `skills/`), which shares the same skill bodies.
 
 ## Quality bar
 

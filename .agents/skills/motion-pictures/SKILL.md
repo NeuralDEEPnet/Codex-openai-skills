@@ -60,3 +60,5 @@ Watch at real speed without scrubbing, ideally on the target device. Then go fra
 ## Handoff
 
 Masters plus beat sheet, timing and easing spec, style documentation, caption files, and platform variants.
+
+Attach the Design Receipt (`../design-core/references/design-receipt.md`) with beat durations, flash and caption checks and the crops played, the Not-done list, and the AI-use disclosure.

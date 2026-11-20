@@ -29,7 +29,9 @@ Choose **one primary discipline** and only the secondary disciplines that materi
 | product film, trailer, motion language | motion-pictures | image-design (style frames) |
 | XR/VR/AR, showroom, game space, 3D world | virtual-worlds | 3d-object-design, software-design, motion-pictures |
 
-If nothing fits, use design-core directly and name the gap in the handoff.
+If the brief is a review of something that already exists, route to `design-review` (which pulls in the medium's specialist for thresholds). If nothing fits, use design-core directly and name the gap in the handoff.
+
+The integrated handoff carries one Design Receipt per piece plus a cross-medium receipt for the interfaces (`../design-core/references/design-receipt.md`).
 
 ## 3. One shared design DNA
 

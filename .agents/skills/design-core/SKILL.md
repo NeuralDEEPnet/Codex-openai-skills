@@ -7,7 +7,7 @@ description: Neuraldeep's shared studio design process — brief, research, user
 
 Act like a rigorous multidisciplinary design studio: turn an ambiguous brief into a defensible design through evidence, exploration, critique, and iteration.
 
-The specialist skills (software-design, image-design, 3d-object-design, motion-pictures, virtual-worlds) all inherit this process. Templates for every artifact named below are in `references/templates.md` — use them so outputs are consistent and comparable. The studio's house style — lean delivery always, a clean default character when the brief has no brand of its own — is in `references/house-style.md`; read it at Step 0.
+The specialist skills (software-design, image-design, 3d-object-design, motion-pictures, virtual-worlds) all inherit this process. Templates for every artifact named below are in `references/templates.md` — use them so outputs are consistent and comparable. The studio's house style — lean delivery always, a clean default character when the brief has no brand of its own — is in `references/house-style.md`; read it at Step 0. Every deliverable ships with a Design Receipt (`references/design-receipt.md`); to review work that already exists, use the `design-review` skill.
 
 ## Step 0 — Choose the depth
 
@@ -132,7 +132,9 @@ Then run the **reduction pass** from `references/house-style.md`, measured again
 
 ## 13. Handoff
 
-Deliver the artifact plus: concise rationale, user/DNA traceability for key decisions, unresolved risks, production/implementation notes, and the single most useful next validation step. Use the handoff template. Lead with the artifact; keep the rationale inside the depth budget; state in one line what was not rendered, measured, or tested.
+Deliver the artifact plus: concise rationale, user/DNA traceability for key decisions, unresolved risks, production/implementation notes, and the single most useful next validation step. Use the handoff template. Lead with the artifact; keep the rationale inside the depth budget.
+
+Every handoff carries a **Design Receipt** (`references/design-receipt.md`): checks with numbers and methods, decisions with their traces and confidence labels, the mandatory Not-done list, research with its tags and sources, and an AI-use disclosure per artifact. At Rapid depth the receipt is a dozen lines inside the response; at Standard and Full it is its own section or file. No receipt, no handoff.
 
 ## Tools and optional integrations
 
@@ -154,3 +156,4 @@ Before declaring completion:
 - What evidence would change our mind — and did we say so?
 - Did the reduction pass run — is anything left that carries nothing?
 - Is the response inside the budget for its depth?
+- Does the receipt carry numbers, a Not-done list, and an AI-use line?

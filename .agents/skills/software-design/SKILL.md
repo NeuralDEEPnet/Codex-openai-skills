@@ -74,3 +74,5 @@ From `house-style.md`, measured against the project's DNA or design system: list
 ## Handoff
 
 Include: the implemented/prototyped experience, rationale with traceability, component and token notes, responsive rules, accessibility notes (what was checked and how, with the computed contrast ratios for text and the primary action in each theme), unresolved risks, and one recommended usability test (task, participant profile, success measure). At Rapid depth follow the response shape in `house-style.md`: depth line, artifact, compact DNA with anti-principles, checks with numbers, assumptions, one next step.
+
+Attach the Design Receipt (`../design-core/references/design-receipt.md`) with the contrast ratios, target sizes and widths rendered, the Not-done list, and the AI-use disclosure.
