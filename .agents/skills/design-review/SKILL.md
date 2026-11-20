@@ -41,15 +41,31 @@ Deliver the Design Receipt (`design-receipt.md` layout) for the reviewed artifac
 
 ## Response shape
 
-Standard depth by default (the house-style budget: ≤ 1,200 words plus tables), in this order with a heading for each:
+Standard depth by default (the house-style budget: ≤ 1,200 words plus tables), in this order, each under its own heading:
 
-1. **Verdict** in one line (ship / fix first / do not ship).
+1. **Verdict**: the very first line of the response, before any title, preamble or method note (ship / fix first / do not ship, and why in one sentence). How the review was done belongs in the receipt's Not-done section, not at the top.
 2. **Top findings**: the three that matter most, with numbers.
 3. **Six lenses**: one line per lens, naming the lens.
-4. **Fixes in order**, each with how to verify.
-5. **Review receipt**.
+4. **Fixes in order**: numbered, blocking issues first, each ending with how to verify it.
+5. **Review receipt**, in exactly this layout:
 
-Short bullets, no narration of process. The full receipt may go in a file when it is long; the verdict, findings and lenses stay in the chat.
+```markdown
+## Review receipt — <artifact> — <date>
+*A review receipt: not an authorship claim, not a certification or legal opinion.*
+### Checks
+| Check | Method | Result | Threshold | Pass |
+|---|---|---|---|---|
+### Not done
+- …
+### AI use
+not stated | as stated by the owner: …
+### Unresolved risks
+- …
+### Next validation
+one test: who, what, success measure
+```
+
+Short bullets, no narration of process. The full receipt may go in a file when it is long; the verdict, findings, lenses and the Checks table stay in the chat.
 
 ## Optional Neuraldeep integrations
 
