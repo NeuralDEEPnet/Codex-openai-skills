@@ -19,7 +19,7 @@ Use the connected 3DJ MCP tools. Discover the actual catalogue before calling to
    - `compose_design_brief` turns a built script into a product-render brief with a reference image for SketchMonkey or any renderer.
    Every measurement is a geometry diagnostic, not a structural or safety certification. Do not say a STEP/STL file exists until the export call returned its URL.
 5. Use `list_my_models`, `cad_list_models`, and `get_model_download_url` only for the authenticated user's models. Report the format actually returned. A GLB download is not automatically an STL or a print-ready part. Do not claim that supportedExports proves a corresponding file is available.
-6. Present the result with dimensions, assumptions, the views you inspected, the downloadable assets actually returned, and the next edit that would improve function. When fabrication is requested, use `../print-production/SKILL.md`.
+6. Present the result as the evidence pack in `../3d-object-design/references/evidence-pack.md`, with dimensions, assumptions, the views you inspected, the downloadable assets actually returned, and the next edit that would improve function. When fabrication is requested, use `../print-production/SKILL.md`.
 
 **Without the connector:** write portable `.scad` or Replicad source with the same parameters, state in one line that it has not been compiled or exported here, and give the user the compile and export steps (3DJ workbench, OpenSCAD, FreeCAD, or a `trimesh` check on the exported bytes).
 
