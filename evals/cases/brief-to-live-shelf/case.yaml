@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: brief-to-live-shelf
+expected_outcome: |
+  Runs the product pipeline in order with gates: brief and DNA, parametric geometry with bounded parameters, an evidence pack that separates measured, assumed and untested values, imagery briefed from the geometry and checked against it or labelled concept, a configurator plan whose controls are the script parameters, and an honest handoff that claims no file, URL or image that was not produced.

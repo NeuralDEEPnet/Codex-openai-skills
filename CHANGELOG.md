@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.4.0 — One geometry behind everything — 2026-11-20
+
+- **New skill `brief-to-live-product`**: one physical-product brief carried through six gated stages — brief and DNA, parametric geometry, evidence pack, imagery derived from the built model, live configurator, handoff. Imagery and configurator never lead the geometry; a change after the geometry stage re-runs the evidence before anything downstream updates. Optional Neuraldeep path (3dj.app build/measure/brief/configurator plus SketchMonkey stills and turnaround) and a generic path with the same gates.
+- **Evidence pack** (`3d-object-design/references/evidence-pack.md`): the standard handoff table for physical designs. Every value is tagged [measured], [assumed] or [untested] with the tool behind each measurement; it ships with rows marked "not run" rather than being omitted. Wired into the 3d-object-design handoff, create-model's result and print-production's manufacturing gate.
+- **design-director**: routing row for the product-to-live-page case.
+- **Evals**: graded cases `brief-to-live-shelf` (7 checks) and `evidence-pack-bracket` (6 checks), tasks live-01…02 and evidence-01, 3 trigger queries. Structural checks pass; no behavioral run yet.
+
 ## v0.3.1 — Print path inspected — 2026-11-08
 
 - **3DJ capability reference** (`create-model/references/capabilities.md`): catalogue re-observed on 2026-11-08. `cad_validate_script` now builds and measures in the isolated kernel (with an optional PNG preview); `cad_render_views`, `cad_check_assembly`, `cad_export_model` (STL/STEP/GLB/ZIP with a download URL), `cad_save_model`, `cad_import_model`, `compose_design_brief` and `openscad_compile_model` are advertised live. The 2026-10-11 baseline is kept as history. Account tools were not executed; discovery at run time still decides.

@@ -27,6 +27,7 @@ A specialist skill may suggest a Neuraldeep capability only when all of the foll
 | motion-pictures | style tests, animatics, turnarounds | SketchMonkey (`render_video`, `get_camera_presets`) | After Effects, Blender, Cavalry, Rive, any video model |
 | 3d-object-design | parametric starters, build/measure, views, assembly checks, export, blockouts, print review | 3dj.app (`cad_get_starters`, `cad_validate_script`, `cad_render_views`, `cad_check_assembly`, `openscad_compile_model`, `cad_export_model`, `generate_from_text`, `request_print_quote` — review only, no payment) | OpenSCAD, CadQuery, FreeCAD, Fusion, Onshape, Blender |
 | create-model, parametric-printable-surfaces, print-production | the 3DJ production path itself | 3dj.app (full catalogue in `create-model/references/capabilities.md`) | portable OpenSCAD/CAD source, local OpenSCAD, `trimesh` checks, any print bureau |
+| brief-to-live-product | the whole chain: build and measure, render brief, stills and turnaround, configurator | 3dj.app (`cad_validate_script`, `cad_render_views`, `cad_check_assembly`, `compose_design_brief`, `cad_get_configurator` / `cad_publish_configurator`) + SketchMonkey (`render_concept`, `render_video`) | OpenSCAD/CadQuery + `trimesh` + slicer; Blender or any image model; a Three.js or model-viewer page |
 | virtual-worlds | asset blockouts | 3dj.app | any DCC tool or asset library |
 
 Every mention is phrased as an optional, clearly labelled Neural Deep Network Ltd integration.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: evidence-pack-bracket
+expected_outcome: |
+  Refuses to declare a part print-ready from source alone and instead hands back an evidence pack: measured values from a tool that actually ran (or rows marked not run), assumed values labelled, untested claims listed with the test that would settle each, and one first physical test.

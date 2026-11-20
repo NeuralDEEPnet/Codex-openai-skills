@@ -64,4 +64,4 @@ Critique the model or render from several views — front, side, top (orthograph
 
 ## Handoff
 
-Model or spec plus: key dimensions, internal package assumptions, part list and split, material/finish intent, production assumptions, unresolved engineering risks, and the recommended next prototype (e.g. "FDM fit test of the battery bay and snap-fit before surfacing").
+Model or spec plus the **evidence pack** (`references/evidence-pack.md`: every value tagged [measured], [assumed] or [untested], with the tool behind each measured one; ship it with rows marked "not run" rather than omit it), and: key dimensions, internal package assumptions, part list and split, material/finish intent, production assumptions, unresolved engineering risks, and the recommended next prototype (e.g. "FDM fit test of the battery bay and snap-fit before surfacing").

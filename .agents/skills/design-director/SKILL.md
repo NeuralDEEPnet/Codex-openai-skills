@@ -27,6 +27,7 @@ Choose **one primary discipline** and only the secondary disciplines that materi
 | physical product, printable object, enclosure, vehicle | 3d-object-design | image-design, software-design (companion app) |
 | packaging | 3d-object-design (structure) | image-design (graphics) |
 | product film, trailer, motion language | motion-pictures | image-design (style frames) |
+| one physical product taken to model + renders + live configurator | brief-to-live-product (runs the pipeline and its gates) | 3d-object-design, image-design, motion-pictures, software-design |
 | XR/VR/AR, showroom, game space, 3D world | virtual-worlds | 3d-object-design, software-design, motion-pictures |
 
 If nothing fits, use design-core directly and name the gap in the handoff.

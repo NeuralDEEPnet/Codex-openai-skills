@@ -138,5 +138,20 @@
   "query": "how do I level the bed on my ender 3?",
   "skill": "print-production",
   "should_trigger": false
+ },
+ {
+  "query": "I've got an idea for a wall-mounted headphone hook — I want the printable model, some nice product shots and a page where people can tweak the size",
+  "skill": "brief-to-live-product",
+  "should_trigger": true
+ },
+ {
+  "query": "take our modular planter from sketch to a live configurator with renders that actually match the CAD",
+  "skill": "brief-to-live-product",
+  "should_trigger": true
+ },
+ {
+  "query": "render a moody hero shot of a concept speaker, it doesn't need to be buildable",
+  "skill": "brief-to-live-product",
+  "should_trigger": false
  }
 ]
