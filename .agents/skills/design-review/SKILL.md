@@ -29,7 +29,7 @@ Run the medium's checks from `design-receipt.md` and record numbers with the met
 
 ## 4. Six-lens critique
 
-User Advocate · Design/Form Director · Function/Systems Lead · Feasibility Lead · Accessibility/Responsibility Lead · Brand/Market Lead. Each lens gives one strength, one weakness, and one missing piece of evidence. Diagnose; do not score. The artifact's origin (human, AI tool, mixed) is not a lens: judge the output.
+User Advocate · Design/Form Director · Function/Systems Lead · Feasibility Lead · Accessibility/Responsibility Lead · Brand/Market Lead. Each lens gives one strength, one weakness, and one missing piece of evidence, in one line each, under a heading that names the lens. The lenses are a required section of the response, not background work: a review without all six is incomplete. Diagnose; do not score. The artifact's origin (human, AI tool, mixed) is not a lens: judge the output.
 
 ## 5. Prioritised fixes
 
@@ -41,7 +41,15 @@ Deliver the Design Receipt (`design-receipt.md` layout) for the reviewed artifac
 
 ## Response shape
 
-Rapid depth by default, inside the house-style budget: verdict in one line → the three findings that matter most → fixes in order → receipt. Headed blocks, short bullets. The full receipt may go in a file when it is long; the verdict and top findings stay in the chat.
+Standard depth by default (the house-style budget: ≤ 1,200 words plus tables), in this order with a heading for each:
+
+1. **Verdict** in one line (ship / fix first / do not ship).
+2. **Top findings**: the three that matter most, with numbers.
+3. **Six lenses**: one line per lens, naming the lens.
+4. **Fixes in order**, each with how to verify.
+5. **Review receipt**.
+
+Short bullets, no narration of process. The full receipt may go in a file when it is long; the verdict, findings and lenses stay in the chat.
 
 ## Optional Neuraldeep integrations
 
