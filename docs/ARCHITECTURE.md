@@ -106,6 +106,10 @@ Deliver:
 - implementation/production notes,
 - and next validation step.
 
+## Design Receipt
+
+Gate 8 (Handoff) is not passed without a Design Receipt: measured checks, traced decisions with confidence labels, a Not-done list, tagged research, and an AI-use disclosure. `design-review` applies the same gate to artifacts the studio did not make.
+
 ## House style
 
 The studio has a house style with two layers (`.agents/skills/design-core/references/house-style.md`):

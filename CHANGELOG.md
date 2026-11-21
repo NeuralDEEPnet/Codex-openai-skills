@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.4 — Design Receipts — 2026-11-20
+
+- **Design Receipt** (`design-core/references/design-receipt.md`, "Neuraldeep Design Receipt v1"): checks with method, result and threshold; decisions with traces and confidence labels; a mandatory Not-done list; tagged research; a per-artifact AI-use disclosure; one next validation. Required by every handoff.
+- **New skill `design-review`**: critique-only entry for existing work (any file, URL or AI-tool export); measures first, six lenses, prioritised fixes, review receipt without guessing provenance or claiming certification.
+- Evals: graded case `review-with-receipt`, tasks review-01…03, 5 trigger queries. Skill bodies shared with the Claude edition v0.5.0.
+
 ## v0.3.1 — Print path inspected — 2026-11-08
 
 - **3DJ capability reference** (`create-model/references/capabilities.md`): catalogue re-observed on 2026-11-08. `cad_validate_script` now builds and measures in the isolated kernel (with an optional PNG preview); `cad_render_views`, `cad_check_assembly`, `cad_export_model` (STL/STEP/GLB/ZIP with a download URL), `cad_save_model`, `cad_import_model`, `compose_design_brief` and `openscad_compile_model` are advertised live. The 2026-10-11 baseline is kept as history. Account tools were not executed; discovery at run time still decides.

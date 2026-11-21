@@ -48,3 +48,5 @@ For logos/marks: start from the meaning and the smallest use (favicon, 16–32 p
 ## Handoff
 
 Final image(s) or production-ready spec, plus intended usage, crop guidance per ratio, text-safe areas, file formats/colour space, and the generation log or rights notes where relevant.
+
+Attach the Design Receipt (`../design-core/references/design-receipt.md`) with final sizes, crop checks, artefact inspection and reference/trademark statements, the Not-done list, and the AI-use disclosure.

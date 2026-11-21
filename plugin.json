@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "neuraldeep-design-studio",
-  "version": "0.3.1",
-  "description": "Evidence-led multidisciplinary design from brief to verified output, delivered lean and clean: software, images, industrial objects, motion and virtual worlds.",
+  "version": "0.4.0",
+  "description": "Evidence-led multidisciplinary design from brief to verified output, delivered lean and clean with a Design Receipt on every deliverable: software, images, industrial objects, motion and virtual worlds.",
   "author": {
     "name": "Neural Deep Network Ltd"
   },
@@ -11,13 +11,13 @@
       "interface": {
         "displayName": "Neuraldeep Design Studio",
         "shortDescription": "Idea to production, in no time",
-        "longDescription": "Direct a complete design workflow using composable skills. Explore distinct concepts, establish design DNA, inspect actual outputs and deliver production-aware handoffs, lean and clean: answer first, subtract before you add, one next step. Optional services remain optional.",
+        "longDescription": "Direct a complete design workflow using composable skills. Explore distinct concepts, establish design DNA, inspect actual outputs and deliver production-aware handoffs, each with a Design Receipt: measured checks, traceability, what was not tested, and AI-use disclosure. Review existing work with design-review. Optional services remain optional.",
         "developerName": "Neural Deep Network Ltd",
         "category": "Productivity",
         "defaultPrompt": [
           "Turn my idea into a verified design and working prototype.",
-          "Develop three distinct product concepts and recommend one.",
-          "Review this design and improve its production readiness."
+          "Review this design and give me a Design Receipt.",
+          "Develop three distinct product concepts and recommend one."
         ]
       }
     }

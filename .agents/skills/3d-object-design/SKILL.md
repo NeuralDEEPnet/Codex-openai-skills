@@ -65,3 +65,5 @@ Critique the model or render from several views — front, side, top (orthograph
 ## Handoff
 
 Model or spec plus: key dimensions, internal package assumptions, part list and split, material/finish intent, production assumptions, unresolved engineering risks, and the recommended next prototype (e.g. "FDM fit test of the battery bay and snap-fit before surfacing").
+
+Attach the Design Receipt (`../design-core/references/design-receipt.md`) with the measured geometry, gates and dimension confidence labels, the Not-done list, and the AI-use disclosure.

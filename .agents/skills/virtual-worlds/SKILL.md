@@ -60,3 +60,5 @@ Experience the world on the target device and scale where possible; otherwise re
 ## Handoff
 
 World map, world-rules table, interaction model, asset hierarchy and budgets, UI/spatial rules, comfort settings, safety/moderation model for social spaces, unresolved risks, and validation plan (including a comfort test with first-time users).
+
+Attach the Design Receipt (`../design-core/references/design-receipt.md`) with frame-time measurements, budgets and comfort settings, the Not-done list, and the AI-use disclosure.

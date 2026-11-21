@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: review-with-receipt
+expected_outcome: |
+  Reviews an existing HTML page with measured checks, a six-lens critique, prioritised fixes, and a Design Receipt that lists what was not done and records AI use as not stated.
